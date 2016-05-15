@@ -1,6 +1,7 @@
 /**
  * 返回一个正整数的翻转的结果，比如输入1234，输出4321
  */
+#define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 #include<stdlib.h>
 
