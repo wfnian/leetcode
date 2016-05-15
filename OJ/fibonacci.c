@@ -7,22 +7,22 @@
  * for all i >= 2
  * Write a program to calculate the Fibonacci Numbers.
  * 
- * ÊäÈë
+ * è¾“å…¥
  * The first line of the input file contains a single integer T, the 
  * number of test cases. The following T lines, each contains an integer
  * n ( 0 <= n <= 45 ), and you are expected to calculate Fn.
  *
- * Êä³ö
+ * è¾“å‡º
  * Output Fn on a separate line.
  *
- * ÑùÀıÊäÈë
+ * æ ·ä¾‹è¾“å…¥
  * 5
  * 0
  * 3
  * 5
  * 9
  * 20
- * ÑùÀıÊä³ö
+ * æ ·ä¾‹è¾“å‡º
  * 0
  * 2
  * 5
