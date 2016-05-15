@@ -1,6 +1,6 @@
 #CXX=clang++-3.6
 CXX=gcc
-CXXFLAGS=-Wall -O2
+CXXFLAGS=-Wall -O2 -Wno-unused-result
 
 #INCLUDE=../
 bins = fibonacci gcd
@@ -14,7 +14,7 @@ gcd:gcd.c
 	$(CXX) $(CXXFLAGS) -o gcd gcd.c
 
 clean:
-	-rm $(bins) *.out
+	-rm $(bins)
 
 .PHONY: all clean
 
