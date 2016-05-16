@@ -13,7 +13,7 @@ abaabcac
 //typedef struct {
 //	char str[MAXSIZE];
 //}*SString;
-typedef unsigned char SString[MAXSIZE + 1];
+/*typedef unsigned char SString[MAXSIZE + 1];
 void get_next(SString T, int *next) {
 	int i = 1;
 	next[1] = 0;
@@ -39,4 +39,34 @@ int main() {
 	get_next(S, next);
 
 	return 0;
+}*/
+int main() {
+	char str1[MAXSIZE], str2[MAXSIZE];
+	
+	while (gets_s(str1) != NULL) {
+		int i, j = 0, k, m = 0;
+		for (int k = 0; k < strlen(str1); k++) {
+			for (i = 0; i <= j; i++) {
+				str2[i] = str1[i];
+			}
+			int n = m++;
+			str2[n+1] = NULL;
+			//puts(str2);
+			{
+				int ll,mm=0;
+				for (ll = 0; ll < strlen(str2); ll++) {
+					if (str2[0+ll] == str2[strlen(str2) - ll-1]){
+						mm++;
+						continue;
+					}
+					else {
+						printf("%d ", mm);
+						break;
+					}
+					
+				}
+			}
+			j++;
+		}
+	}
 }
