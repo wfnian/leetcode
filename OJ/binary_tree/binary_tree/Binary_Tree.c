@@ -27,9 +27,6 @@ BiTree CreatTree(DataType *datas, int *i, int len) {
 	return root;
 }
 
-void InitTree(BiTree*T) {
-	(*T) = NULL;
-}
 
 int PreVisit(BiTree *T) {
 	if (T == NULL)
