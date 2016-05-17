@@ -31,49 +31,49 @@ BiTree CreatTree(DataType *datas, int len, int *i) {
 	return root;
 }
 
-
-int PreVisit(BiTree *T) {
+int PreVisit(BiTree T) {
 	if (T == NULL)
 		return ERROR;
-	printf("%c", (*T)->data);
-	PreVisit(&(*T)->lchild);
-	PreVisit(&(*T)->rchild);
+	printf("%c", (T)->data);
+	PreVisit((T)->lchild);
+	PreVisit((T)->rchild);
 	return OK;
 }
 
-int MidVisit(BiTree *T) {
+int MidVisit(BiTree T) {
 	if (T == NULL)
 		return ERROR;
-	printf("%c", (*T)->data);
-	MidVisit(&(*T)->lchild);
-	MidVisit(&(*T)->rchild);
+	MidVisit((T)->lchild);
+	printf("%c", (T)->data);
+	MidVisit((T)->rchild);
 	return OK;
 }
 
-int AftVisit(BiTree *T) {
+int AftVisit(BiTree T) {
 	if (T == NULL)
 		return ERROR;
-	printf("%c", (*T)->data);
-	AftVisit(&(*T)->lchild);
-	AftVisit(&(*T)->rchild);
+	
+	AftVisit((T)->lchild);
+	AftVisit((T)->rchild);
+	printf("%c", (T)->data);
 	return OK;
 }
 
 int main() {
-	BiTree T;
-
-	char str[100];
+	
+	char str[20000];
 	int i; 
 	while (gets(str)) {
+		BiTree T;
 		T = NULL;
 		i = 0;
 		T = CreatTree(str, strlen(str), &i);
-		PreVisit(&T);
+		MidVisit(T);
 		printf(" ");
-		MidVisit(&T);
+		AftVisit(T);
 		printf(" ");
-		AftVisit(&T);
-		printf(" \n");
+		PreVisit(T);
+		printf("\n");
 	}
 
 	return OK;
