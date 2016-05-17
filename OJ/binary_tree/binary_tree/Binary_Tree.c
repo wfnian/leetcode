@@ -1,3 +1,6 @@
+/*
+	二叉树的前序中序后序遍历
+*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
