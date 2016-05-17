@@ -15,7 +15,7 @@ typedef struct BiNode {
 	struct BiNode *rchild;
 }BiNode, *BiTree;
 
-BiTree CreatTree(DataType *datas, int *i, int len) {
+BiTree CreatTree(DataType *datas, int len, int *i) {
 	BiTree *root;
 	if ((*i) > len)
 		return NULL;
@@ -24,9 +24,10 @@ BiTree CreatTree(DataType *datas, int *i, int len) {
 		return NULL;
 	}
 	root = (BiNode*)malloc(sizeof(BiNode));
-	(*root)->data = datas[*i]; (*i)++;
-	(*root)->lchild = CreatTree(datas, i + 1, len);
-	(*root)->rchild = CreatTree(datas, i + 1, len);
+	(*root)->data = datas[*i];
+	(*i)++;
+	(*root)->lchild = CreatTree(datas, len, i);
+	(*root)->rchild = CreatTree(datas, len, i);
 	return root;
 }
 
@@ -60,12 +61,11 @@ int AftVisit(BiTree *T) {
 
 int main() {
 	BiTree T;
-	InitTree(&T);
 	char str[200];
 	int i; 
 	while (gets(str)) {
 		i = 0;
-		T = CreatTree(str, &i, strlen(str));
+		T = CreatTree(str, strlen(str), &i);
 		MidVisit(&T);
 
 	}
