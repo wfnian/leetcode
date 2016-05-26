@@ -3,7 +3,7 @@ CXX=gcc
 CXXFLAGS=-Wall -O2 -Wno-unused-result
 
 #INCLUDE=../
-bins = fibonacci gcd number_reverse
+bins = fibonacci gcd number_reverse binary_tree
 
 all:$(bins)
 
@@ -15,6 +15,9 @@ gcd:gcd.c
 
 number_reverse:number_reverse.c
 	$(CXX) $(CXXFLAGS) -o number_reverse number_reverse.c
+
+binary_tree:binary_tree.c
+	$(CXX) $(CXXFLAGS) -o binary_tree binary_tree.c
 
 clean:
 	-rm $(bins)
