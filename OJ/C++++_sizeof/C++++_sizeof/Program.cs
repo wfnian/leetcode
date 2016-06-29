@@ -5,10 +5,14 @@ namespace C____sizeof
     {
         static void Main(string[] args)
         {
-            double ds = 3784.992;
+            double d = 3784.992;
             int i = 99;
-            i = (int)ds;
-            Console.WriteLine("{0}", i);
+            float f = 444.4747f;
+            bool b = true;
+            i = (int)d;
+            Console.WriteLine(i.ToString());
+            Console.WriteLine(f.ToString());
+            //Console.WriteLine(i.ToInt32());
             Console.ReadLine();
         }
     }
