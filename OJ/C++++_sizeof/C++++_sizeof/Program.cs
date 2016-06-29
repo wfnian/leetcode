@@ -7,10 +7,13 @@ namespace C____sizeof
         {
             int a;
             int b;
-            a = 2;
+            a = Convert.ToInt32(Console.ReadLine());
             b = 3;
             int c = a + b;
-            Console.WriteLine("{0}", c);
+            for (int j = 0; ;)
+            {
+                Console.WriteLine("{0}", c);
+            }
             Console.ReadLine();
         }
     }
