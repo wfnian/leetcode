@@ -18,5 +18,11 @@
     <ClCompile Include="remove_the_same_elem.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="杨辉三角.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="struct.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

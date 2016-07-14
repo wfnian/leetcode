@@ -41,28 +41,57 @@ Status InitList(LinkList *L) {
 	return OK;
 }
 
-Status CreatList(LinkList *L, int n) {
+/*Status CreatList(LinkList *L, int n) {
 	LinkList p;
 	int i = 0;
 	DataType elem;
 	for (i = 0; i < n; i++) {
 		p = (LinkList)malloc(sizeof(LinkList));
 		scanf("%d", &elem);
+		printf("%d ", elem);
 		p->data = elem;
 		p->next = (*L)->next;
 		(*L)->next = p;
 	}
+	printf("\n");
+	return OK;
+}*/
+
+Status CreatList(LinkList *L, int n) {
+	LinkList p, r;
+	int i;
+	DataType elem;
+	r = (*L);
+	for (i = 0; i < n; i++) {
+		p = (LinkList)malloc(sizeof(LinkList));
+		scanf("%d", &elem);
+		printf("%d ", elem);
+		p->data = elem;
+		p->next = NULL;
+		r->next = (p);
+		r = p;
+	}
+	printf("\n");
 	return OK;
 }
 
 Status DeleList(LinkList *L) {
 	LinkList P;
 	P = (*L);
-	while (P != NULL) {
-		if (P->data == P->next->data) {
+	while (P != NULL&&P->data!=P->next->data) {
+		/*if (P->data == P->next->data) {
 			P->next = P->next->next;
+			P = P->next;
+			return OK;
 		}
+		else P = P->next;*/
 		P = P->next;
+	}
+	if (P->next == NULL) {
+		return ERROR;
+	}
+	else {
+		P->next = P->next->next; return OK;
 	}
 	return OK;
 }
@@ -77,14 +106,18 @@ Status Print(LinkList *L) {
 	printf("\n");
 	return OK;
 }
+
 int main() {
 	LinkList L;
 	int N;
 	InitList(&L);
 	while (~scanf("%d", &N)) {
-		CreatList(&L, N);
-		DeleList(&L);
-		Print(&L);
+		if (N != 0) {
+			CreatList(&L, N);
+			DeleList(&L);
+			Print(&L);
+		}
+		else printf("list is empty\n");
 	}
 
 	return OK;

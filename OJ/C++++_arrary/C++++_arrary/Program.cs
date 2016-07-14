@@ -19,8 +19,9 @@ namespace C_____arrary
             }
             for( i = 0;i < 5; i++)
             {
-                Console.WriteLine("{0} \t", arra[i]);
+                Console.WriteLine("{0}", arra[i]);
             }
+            Console.ReadKey();
         }
     }
 }

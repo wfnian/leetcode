@@ -34,13 +34,17 @@ BiTree CreatTree1(DataType *pre, DataType *mid, int len) {
 	BiNode *root = NULL;
 	DataType *p;
 	int lenleft = 0;
+	if (len <= 0) {
+		return NULL;
+	}
 	if (len > 0) {
-		root = malloc(sizeof(BiNode));
+		root =(BiNode*) malloc(sizeof(BiNode));
 		root->data = pre[0];
-		for (p = mid; p < mid + len; p++, lenleft++) {
+		for (p = mid; p < mid + len; p++) {
 			if (*p = pre[0])
 				break;
 		}
+		lenleft = p - mid;
 		root->lchild = CreatTree1(pre + 1, mid, lenleft);
 		root->rchild = CreatTree1(pre + lenleft + 1, p + 1, len - lenleft - 1);
 	}	
@@ -50,13 +54,28 @@ BiTree CreatTree1(DataType *pre, DataType *mid, int len) {
 void AftVisit(BiTree T) {
 	if (T == NULL)
 		return ;
-
 	AftVisit((T)->lchild);
 	AftVisit((T)->rchild);
 	printf("%c", (T)->data);
-	//return OK;
 }
 
+void cengci(BiNode *r)
+{
+	int i = 0, j = 1;
+	BiNode *t[103];
+	t[0] = r;
+	while (i < j)//队列不为空时
+	{
+		if (t[i] != NULL)// i 结点不为空时
+		{
+			printf("%c", t[i]->data);//访问该节点
+			t[j++] = t[i]->lchild; //左分支进队列
+			t[j++] = t[i++]->rchild; //右分支进队列
+		}
+		else
+			i++;
+	}
+}
 int main() {
 	char str1[200], str2[200];
 	int N, i;
@@ -68,6 +87,7 @@ int main() {
 			T = NULL;
 			T = CreatTree1(str1, str2, strlen(str2));
 			AftVisit(T);
+			//cengci(&T);
 			printf("\n");
 		}
 	}
