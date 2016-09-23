@@ -20,7 +20,6 @@
 #include<stdio.h>
 
 int judge(int money, int a, int b, int c, int d, int e, int f, int g ) {
-	
 		if (money < 2) {
 			a = money / 1;
 			money = 0;
@@ -31,12 +30,12 @@ int judge(int money, int a, int b, int c, int d, int e, int f, int g ) {
 			judge(money, a, b, c, d, e, f, g); 
 		}
 		else if (money < 10) {
-			c = money / 5;// 15->1
+			c = money / 5;
 			money = money - c*5;
 			judge(money, a, b, c, d, e, f, g); 
 		}
 		else if (money < 20) {
-			d = money / 10;//15->1
+			d = money / 10;
 			money = money - 10;
 			judge(money, a, b, c, d, e, f, g);
 		}
@@ -55,7 +54,7 @@ int judge(int money, int a, int b, int c, int d, int e, int f, int g ) {
 			money = money - g * 100;
 			judge(money, a, b, c, d, e, f, g);
 		}
-	//if (money == 0)
+	if (money == 0)
 		printf("%d %d %d %d %d %d %d\n", a, b, c, d, e, f, g);
 	return 0;
 }
