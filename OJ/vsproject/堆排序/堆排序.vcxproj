@@ -19,11 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{2B18F8E3-A653-454D-9914-DDEA6A6E171B}</ProjectGuid>
+    <ProjectGuid>{E8FEE413-FCAB-4B73-9D85-26B7E6499E2F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My136_single_number</RootNamespace>
+    <RootNamespace>堆排序</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
-    <ProjectName>136single_number</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -143,7 +142,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="136single_number.c" />
+    <ClCompile Include="堆排序.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="堆排序.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -32,9 +32,9 @@ int main() {
 		scanf("%d ", &nums[i]);
 	}
 	for (int i = 0; i < numsSize; i++) {
-		for (int j = 0; j < numsSize; ) {
-			if (nums[i] == nums[j] && i != j) {
-				j++;
+		for (int j = 0; j < numsSize;  ) {
+			if (nums[i] != nums[j] && i != j) {
+				
 			}
 			else {
 				printf("%d\n", nums[i]);

@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="136single_number.c">
+    <ClCompile Include="快速排序.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

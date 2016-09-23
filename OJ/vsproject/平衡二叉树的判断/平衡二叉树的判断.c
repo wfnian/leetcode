@@ -39,19 +39,39 @@ BiTree CreatTree(char *datas, int len, int *i) {
 	(*i)++;
 	root->lchild = CreatTree(datas, len, i);
 	root->rchild = CreatTree(datas, len, i);
+//	(*root).bf = 0;
 	return root;
+}
+
+int CheckHight(BiTree *T) {
+	/*T->bf = 0;
+	if (T->lchild != NULL)
+		T->bf++;
+	else */
+	(*T)->bf = 0;
+	if (*T == NULL)
+		return 0;
+	while ((*T)->lchild == NULL) {
+		(*T)->bf++;
+	}
+	return (*T)->bf;
 }
 
 int main() {
 
 	char str[20000];
 	int i;
-	while (gets(str) != NULL) {
-		BiTree T;
-		T = NULL;
-		i = 0;
-		T = CreatTree(str, strlen(str), &i);
+	BiTree T;
+	gets(str);
+	T = NULL;
+	//T->bf = 0;
+	i = 0;
+	T = CreatTree(str, strlen(str), &i);
+	if (T == NULL)
+		printf("YES\n");
+	else {
+		int a = CheckHight(&T);
+		printf("%d\n", a);
 	}
-
 	return OK;
 }

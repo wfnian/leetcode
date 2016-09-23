@@ -52,19 +52,22 @@ click to show spoilers.
 //方法二，看作数字
 int isPalindrome(int a) {
 	long  n = 0, temp;
-
+	if (a == 0)
+		goto loop;
+	temp = a;
 	while (a != 0) {
 		n += a % 10;
 		a /= 10;
 		n *= 10;
 	}
 
-	if (temp == n / 10 )
-		printf("true\n");
-	else 
-		printf("false\n");
-	return 0;
+	if (temp == n / 10)
+		loop:	return -1;
+	else
+		return 0;
+
 }
+
 int main(){
 	long x;
 	isPalindrome(0);

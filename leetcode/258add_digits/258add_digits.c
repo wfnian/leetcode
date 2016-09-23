@@ -24,17 +24,17 @@ int kkk(int sum) {
 		if (num <= 0)
 			break;
 	}
-	if (a > 10)
+	if (a >= 10)
 		return kkk(a);
 	return a;
 }
 int main()
 {
 	int num;
-	int a = 0;
-	scanf("%d", &num);
-	int sum;
-	sum = num;
-	int b = kkk(sum);
-	printf("%d\n", b);
+	while (scanf("%d", &num) ) {
+		if (num == 0)
+			break;
+		int b = kkk(num);
+		printf("%d\n", b);
+	}
 }
