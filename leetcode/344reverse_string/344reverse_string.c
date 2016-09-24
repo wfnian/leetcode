@@ -6,8 +6,9 @@ Given s = "hello", return "olleh".*/
 
 #include<stdio.h>
 #include<string.h>
+#include<malloc.h>
 char* reverseString(char* s) {
-	char *str = NULL;
+	char *str = (char *)malloc((strlen(s)+1));
 	int len = strlen(s);
 	for (int i = 0; i < len; i++) {
 		str[len - i - 1] = s[i];
@@ -16,10 +17,10 @@ char* reverseString(char* s) {
 	return str;
 }
 int main() {
-	char **x;
-	**x = reverseString("hello");
-	puts(**x);
+	char *str = "hello";
 	//puts(reverseString("hello"));
-	//reverseString("helloworld");
+	char *str1=reverseString(str);
+	puts(str1);
+	free(str1);
 	//reverseString("hello");
 }
