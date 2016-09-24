@@ -14,7 +14,8 @@ Special thanks to @yukuairoy for adding this problem and creating all test cases
 bool isPowerOfFour(int num) {
 	int temp = 0;
 	int i;
-	if(num>=4*4*4*4*4)	num=pow(num,-4);
+	if (num >= 4 * 4 * 4 * 4 * 4 * 4 * 4 * 4 * 4 * 4 * 4)	//num=pow(num,-4);
+		num = num / 65536;
 	for (i = 0; i<num; i++) {
 		if (pow(4, i) == num)
 		{
