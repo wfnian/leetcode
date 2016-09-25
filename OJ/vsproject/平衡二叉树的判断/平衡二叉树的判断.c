@@ -13,12 +13,11 @@ No
 ÌבÊ¾
 */
 #include<stdio.h>
-#include<stdlib.h>
 #include<string.h>
+#include<stdlib.h>
 #define MAXSIZE  100
 #define ERROR -1
 #define OK 0
-
 typedef struct BiNode {
 	char data;
 	int bf;
@@ -42,36 +41,51 @@ BiTree CreatTree(char *datas, int len, int *i) {
 //	(*root).bf = 0;
 	return root;
 }
-
-int CheckHight(BiTree *T) {
-	/*T->bf = 0;
-	if (T->lchild != NULL)
-		T->bf++;
-	else */
-	(*T)->bf = 0;
-	if (*T == NULL)
-		return 0;
-	while ((*T)->lchild == NULL) {
-		(*T)->bf++;
+//int TreeDepth(BiNode *pRoot){
+//	     if (pRoot == NULL)
+//		         return 0;
+//	     int left = TreeDepth(pRoot->lchild);
+//	     int right = TreeDepth(pRoot->rchild);
+//		 return (left > right) ? (left + 1) : (right + 1);
+//}
+int depth(BiTree root) {
+	int ldepth, rdepth;
+	if (!root)     return 0;
+	else {
+		ldepth = depth(root->lchild);
+		rdepth = depth(root->rchild);
+		return ldepth > rdepth ? ldepth + 1 : rdepth + 1;
 	}
-	return (*T)->bf;
+}
+int isBalan(BiNode *root) {
+	if (!root) {
+		printf("NO\n");
+		return 0;
+	}
+	int left = depth(root->lchild);
+	int right = depth(root->rchild);
+	int diff = left - right;
+	if (diff < -1 && diff>1) {
+		printf("YES\n");
+		return 1;
+	}
+	return isBalan(root->lchild) && isBalan(root->rchild);
+
 }
 
 int main() {
-
 	char str[20000];
 	int i;
 	BiTree T;
-	gets(str);
-	T = NULL;
-	//T->bf = 0;
-	i = 0;
-	T = CreatTree(str, strlen(str), &i);
-	if (T == NULL)
-		printf("YES\n");
-	else {
-		int a = CheckHight(&T);
-		printf("%d\n", a);
+	while (gets(str) != NULL) {
+		T = NULL;
+		i = 0;
+		T = CreatTree(str, strlen(str), &i);
+		if (T == NULL)
+			printf("YES\n");
+		else {
+			isBalan(T);
+		}
 	}
 	return OK;
 }

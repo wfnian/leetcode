@@ -20,7 +20,7 @@
 1 2 3 4 5 6 7 8 9 10
 */
 #include<stdio.h>
-#define  MAXSIZE 20
+#define  MAXSIZE 10
 typedef struct {
 	int r[MAXSIZE];
 	int length;
@@ -31,7 +31,6 @@ void swap(SqList*L, int i, int j) {
 	L->r[i] = L->r[j];
 	L->r[j] = temp;
 }
-
 int Partition(SqList *L, int low, int high) {
 	int pivotkey;
 	pivotkey = L->r[low];
@@ -45,7 +44,6 @@ int Partition(SqList *L, int low, int high) {
 	}
 	return low;
 }
-
 void QSort(SqList *L, int low, int high) {
 	int pivot;
 	if (low < high) {
@@ -54,7 +52,6 @@ void QSort(SqList *L, int low, int high) {
 		QSort(L, pivot + 1, high);
 	}
 }
-
 void QuickSort(SqList *L) {
 	QSort(L, 1, L->length);
 }

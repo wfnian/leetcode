@@ -22,17 +22,17 @@
 */
 
 #include<stdio.h>
-#define  MAXSIZE 20
+#define  MAXSIZE 100000
 typedef struct {
-	int r[MAXSIZE];
+	int r[MAXSIZE+1];
 	int length;
 }SqList;
 
-void swap(SqList*L, int i, int j) {
-	int temp = L->r[i];
-	L->r[i] = L->r[j];
-	L->r[j] = temp;
-}
+//void swap(SqList*L, int i, int j) {
+//	int temp = L->r[i];
+//	L->r[i] = L->r[j];
+//	L->r[j] = temp;
+//}
 
 void HeadAdjust(SqList *L, int s, int m) {
 	int temp, j;
@@ -49,11 +49,13 @@ void HeadAdjust(SqList *L, int s, int m) {
 }
 
 void HeapSort(SqList *L) {
-	int i;
+	int i,temp;
 	for (i = L->length / 2; i > 0; i--) 
 		HeadAdjust(L, i, L->length);
 	for (i = L->length; i > 1; i--) {
-		swap(L, 1, i);
+		temp = L->r[1];
+		L->r[1] = L->r[i];
+		L->r[i] = temp;
 		HeadAdjust(L, 1, i - 1);
 	}
 }
