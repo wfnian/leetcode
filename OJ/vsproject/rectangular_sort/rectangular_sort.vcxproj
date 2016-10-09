@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D52764D1-3676-42B7-B203-3EB62F6F5DA9}</ProjectGuid>
+    <ProjectGuid>{8B329625-7693-462B-ABE5-0B378B6BFCE3}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My12integer_to_roman</RootNamespace>
+    <RootNamespace>rectangular_sort</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -142,7 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="12integer_to_roman.c" />
+    <ClCompile Include="rectangular_sort.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

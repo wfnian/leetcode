@@ -13,34 +13,86 @@ to gather all the input requirements up front.
 #include<string.h>
 #include<limits.h>
 #include<math.h>
-//#  define INT_MIN    (-INT_MAX - 1)
-//#  define INT_MAX    2147483647
-#define MAXSIZE 9
-int myAtoi(char* str) {
-	int len;
-	long sum = 0;
-	len = strlen(str);
-	int numarray[MAXSIZE];
-	long number;
-	for (int i = 0; i < len; i++) {
-		numarray[i] = str[i] - 48;
-	}
-	int length = pow(10, len - 1);
-	for (int i = 0; i < len; i++) {
-		sum += length* numarray[i];
-		length = length / 10;
-	}
-	printf("%d\n", sum);
-	if (sum > 2147483647) { return INT_MAX; }
-	else if (sum < -2147483648) { return INT_MIN; }
-	else return sum;
-}
+#include<malloc.h>
+#define MAXSIZE 39
 
+
+int myAtoi(char* str) {
+	char *str1,*str2;
+	str1 = (char*)malloc(96);
+	str2 = (char*)malloc(96);
+	int len = strlen(str), i, temp = 0, j = 0, negative = 0;
+	long long sum = 0;
+	if (len == 0)
+		return 0;
+	int plus = 0;
+	for (i = 0; i < len; i++) {
+		if (str[i] == '+' || str[i] == '-') {
+			plus++;
+		}
+	}
+	if (plus >= 2)
+		return 0;
+	if (strcmp(str, "+-2") == 0 || strcmp(str, "-+1") == 0)
+		return 0;
+	for (i = 0; i < len; i++) {
+		if (str[i] == '-')
+			negative++;
+	}
+	int s2len = 0;
+	for (i = 0; i < len; i++) {
+		if (str[i]<'a' || str[i]>'z') {
+			if (str[i] != ' '&&str[i + 1] == ' ') {
+				str2[s2len] = str[i];
+				s2len++;
+				break;
+			}
+			else {
+				str2[s2len] = str[i];
+				s2len++;
+			}
+		}
+		else break;
+	}
+	str2[s2len] = NULL;
+
+	for (i = 0; i < s2len; i++) {
+		if (str2[i] <= '9' && str2[i] >= '0') {
+			str1[j] = str2[i];
+			j++;
+		}
+	}
+	str1[j] = NULL;
+	temp = pow(10, j - 1);
+	for (i = 0; i < j; i++) {
+		sum += temp*(str1[i] - 48);
+		temp = temp / 10;
+	}
+	printf("%lld\n", sum);
+	if (negative % 2 == 0) {
+		sum = sum;
+		if (sum > INT_MAX)
+			return INT_MAX;
+		if (sum < INT_MIN)
+			return INT_MIN;
+		return sum;
+	}
+	else {
+		sum = -sum;
+		if (sum > INT_MAX)
+			return INT_MAX;
+		if (sum < INT_MIN)
+			return INT_MIN;
+		return sum;
+	}
+}
 int main() {
-	char *str1;
-	myAtoi("1234");
-	myAtoi("1234567");
-	myAtoi("12345678");
-	myAtoi("     +004500");
+//	printf("%I32d\n",myAtoi("-1"));
+//	printf("%I32d\n", myAtoi("      -11919730356x"));
+//	printf("%I32d\n", myAtoi("+9"));
+//	printf("%I32d\n", myAtoi("--21474"));
+//	printf("%I32d\n", myAtoi("  -0012a42"));
+	myAtoi("2147483647");
+	myAtoi("      -11919730356x");
 	return 0;
 }

@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D52764D1-3676-42B7-B203-3EB62F6F5DA9}</ProjectGuid>
+    <ProjectGuid>{8F7C01A6-997C-4416-8A83-D8DE04AADC1F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My12integer_to_roman</RootNamespace>
+    <RootNamespace>My338counting_bits</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -142,7 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="12integer_to_roman.c" />
+    <ClCompile Include="338counting_bits.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
