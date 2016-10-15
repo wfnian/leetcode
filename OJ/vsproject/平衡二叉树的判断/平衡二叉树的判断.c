@@ -15,6 +15,7 @@ No
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
+#include<stdbool.h>
 #define MAXSIZE  100
 #define ERROR -1
 #define OK 0
@@ -38,39 +39,36 @@ BiTree CreatTree(char *datas, int len, int *i) {
 	(*i)++;
 	root->lchild = CreatTree(datas, len, i);
 	root->rchild = CreatTree(datas, len, i);
-//	(*root).bf = 0;
 	return root;
 }
-//int TreeDepth(BiNode *pRoot){
-//	     if (pRoot == NULL)
-//		         return 0;
-//	     int left = TreeDepth(pRoot->lchild);
-//	     int right = TreeDepth(pRoot->rchild);
-//		 return (left > right) ? (left + 1) : (right + 1);
-//}
 int depth(BiTree root) {
-	int ldepth, rdepth;
-	if (!root)     return 0;
+	/*int ldepth, rdepth;
+	if (root == NULL)
+		return 0;
 	else {
 		ldepth = depth(root->lchild);
 		rdepth = depth(root->rchild);
 		return ldepth > rdepth ? ldepth + 1 : rdepth + 1;
-	}
+	}*/
+	int depthleft = 0;
+	int depthright = 0;
+	int depthval = 0;
+	if (root == NULL) return depthval;
+	depthleft = depth(root->lchild);
+	depthright = depth(root->rchild);
+	depthval = 1 + max(depthleft, depthright);
+	return depthval;
 }
-int isBalan(BiNode *root) {
-	if (!root) {
-		printf("NO\n");
-		return 0;
+bool isBalan(BiNode *root) {
+	if (root == NULL) {
+		return true;
 	}
 	int left = depth(root->lchild);
 	int right = depth(root->rchild);
 	int diff = left - right;
-	if (diff < -1 && diff>1) {
-		printf("YES\n");
-		return 1;
-	}
+	if (diff < -1 && diff>1) 
+		return false;
 	return isBalan(root->lchild) && isBalan(root->rchild);
-
 }
 
 int main() {
@@ -81,10 +79,13 @@ int main() {
 		T = NULL;
 		i = 0;
 		T = CreatTree(str, strlen(str), &i);
+		//printf("%d\n", depth(T));
 		if (T == NULL)
-			printf("YES\n");
+			printf("Yes\n");
 		else {
-			isBalan(T);
+			if (isBalan(T) ==true)
+				printf("Yes\n");
+			else printf("No\n");
 		}
 	}
 	return OK;

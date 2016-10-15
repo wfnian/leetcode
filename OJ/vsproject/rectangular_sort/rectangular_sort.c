@@ -24,7 +24,7 @@
 1
 8
 1 1 1
-1 1 1
+3 1 9
 1 1 2
 1 2 1
 1 2 2
@@ -39,57 +39,70 @@
 2 2 1
 */
 #include<stdio.h>
-#define MAXSIZE 10000
-void Popo1(int R[MAXSIZE], int n) {
-	int i, j, temp;
-	for (i = 0; i<n; i++)
-	{
-		for (j = n - 1; j>0; j--)
-		{
-			if (R[j]<R[j - 1])
-			{
-				temp = R[j];
-				R[j] = R[j - 1];
-				R[j - 1] = temp;
+#include<malloc.h>
+#define MAX 10001
+typedef struct {
+	int num;
+	int len;
+	int wid;
+}rectangular;
+//void Popo1(rectangular rect[MAX], int n2) {
+//	int i, j, temp;
+//	for (i = 0; i < n2; i++)
+//	{
+//		for (j = n2 - 1; j > 0; j--)
+//		{
+//			if (rect[j].len < rect[j - 1].len)
+//			{
+//				temp = rect[j].len;
+//				rect[j].len = rect[j - 1].len;
+//				rect[j - 1].len = temp;
+//			}
+//		}
+//	}
+//} 
+int main(){
+	int n1, n2, i , j, temp;
+	int num, len, wid;
+	rectangular *rect[MAX],temp1[MAX];
+	while (scanf_s("%d", &n1) != EOF) {
+		scanf_s("%d", &n2);
+		for (i = 0; i < n2; i++){
+			scanf_s("%d %d %d", &num, &len, &wid);
+			rect[i] = (rectangular*)malloc(sizeof(rectangular));
+			rect[i]->num = num;
+			if (len > wid) {
+				rect[i]->len = len;
+				rect[i]->wid = wid;
 			}
+			else {
+				rect[i]->len = wid;
+				rect[i]->wid = len;
+			}
+		}
+		printf("_______________________________\n");
+		for (i = 0; i < n2; i++)
+		{
+			for (j = n2 - 1; j > 0; j--)
+			{
+				if (rect[j]->num < rect[j - 1]->num)
+				{
+					temp = rect[j]->len;
+					rect[j]->len = rect[j - 1]->len;
+					rect[j - 1]->len = temp;
+					/*temp1[0].num = rect[j].num;
+					rect[j].num = rect[j + 1].num;
+					rect[j + 1].num = temp1[0].num;*/
+				}
+			}
+		}
+		for (i = 0; i < n2; i++) {
+			printf("%d %d %d\n", rect[i]->num, rect[i]->len, rect[i]->wid);
 		}
 	}
 }
-
-int main() {
-	int n, i, m;
-	int R[MAXSIZE];
-	int B[MAXSIZE];
-	int num, length, width, temp;
-	int  count;
-	while (scanf("%d", &n) != EOF) {
-		scanf("%d", &m);
-		for (i = 0; i < m; i++) {
-			scanf("%d %d %d",&num,&length,&width);
-			if (width > length) {
-				temp = width;
-				width = length;
-				length = temp;
-			}
-			R[i] = num * 100 + length * 10 + width;
-		}
-		Popo1(R, m);
-		count = m;
-		int I, J;
-		count = I = m - 1;
-		while (I >= 0)
-		{
-			if (R[I] == R[I - 1])
-			{
-				for (J = I; J <= count; J++)
-					R[J - 1] = R[J];
-				count--;
-			}
-			I--;
-		}
-		for (i = 0; i <= count; i++) {
-			printf("%d %d %d\n", R[i]/100, R[i]/10%10, R[i]%10);
-		}
-	}
-	return 0;
+/*
+for (i = 0; i < n2; i++) {
+	printf("%d %d %d\n", rect[i].num, rect[i].len, rect[i].wid);
 }
+*/

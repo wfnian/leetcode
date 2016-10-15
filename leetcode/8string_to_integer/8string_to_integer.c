@@ -21,8 +21,8 @@ int myAtoi(char* str) {
 	char *str1,*str2;
 	str1 = (char*)malloc(96);
 	str2 = (char*)malloc(96);
-	int len = strlen(str), i, temp = 0, j = 0, negative = 0;
-	long long sum = 0;
+	int len = strlen(str), i, j = 0, negative = 0;
+	long long sum = 0, temp = 0;
 	if (len == 0)
 		return 0;
 	int plus = 0;
@@ -32,8 +32,6 @@ int myAtoi(char* str) {
 		}
 	}
 	if (plus >= 2)
-		return 0;
-	if (strcmp(str, "+-2") == 0 || strcmp(str, "-+1") == 0)
 		return 0;
 	for (i = 0; i < len; i++) {
 		if (str[i] == '-')
@@ -55,7 +53,6 @@ int myAtoi(char* str) {
 		else break;
 	}
 	str2[s2len] = NULL;
-
 	for (i = 0; i < s2len; i++) {
 		if (str2[i] <= '9' && str2[i] >= '0') {
 			str1[j] = str2[i];
@@ -63,36 +60,36 @@ int myAtoi(char* str) {
 		}
 	}
 	str1[j] = NULL;
+	puts(str1);
 	temp = pow(10, j - 1);
 	for (i = 0; i < j; i++) {
 		sum += temp*(str1[i] - 48);
+		if (sum > INT_MAX&&negative!=0) {
+			return INT_MIN;
+		}
+		if (sum < INT_MIN) {
+			return INT_MAX;
+		}
 		temp = temp / 10;
 	}
-	printf("%lld\n", sum);
-	if (negative % 2 == 0) {
-		sum = sum;
-		if (sum > INT_MAX)
-			return INT_MAX;
-		if (sum < INT_MIN)
-			return INT_MIN;
-		return sum;
-	}
-	else {
+	if (negative != 0)
 		sum = -sum;
-		if (sum > INT_MAX)
-			return INT_MAX;
-		if (sum < INT_MIN)
-			return INT_MIN;
-		return sum;
+	if (sum < INT_MIN) {
+		return INT_MIN;
 	}
+	if (sum > INT_MAX)
+		return INT_MAX;
+	return sum;
+
 }
 int main() {
-//	printf("%I32d\n",myAtoi("-1"));
-//	printf("%I32d\n", myAtoi("      -11919730356x"));
-//	printf("%I32d\n", myAtoi("+9"));
+	printf("%I32d\n",myAtoi("-2147483648"));
+	printf("%I32d\n", myAtoi("      -11919730356x"));
+	printf("%I32d\n", myAtoi(" +9333333333333333333333333"));
 //	printf("%I32d\n", myAtoi("--21474"));
-//	printf("%I32d\n", myAtoi("  -0012a42"));
-	myAtoi("2147483647");
-	myAtoi("      -11919730356x");
+//	printf("%I32d\n", myAtoi("  -0012a42000000000000000"));
+//	myAtoi("  -0012a42");
+	//myAtoi("2147483647");
+	//myAtoi("      -11919730356x");
 	return 0;
 }
