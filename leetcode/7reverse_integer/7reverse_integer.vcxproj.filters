@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="9palindrome_number.c">
+    <ClCompile Include="7reverse_integer.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

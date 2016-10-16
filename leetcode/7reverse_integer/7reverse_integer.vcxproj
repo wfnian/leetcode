@@ -19,11 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{18779723-2FFB-4843-954D-10666905F7E2}</ProjectGuid>
+    <ProjectGuid>{286D6F1F-D84A-417D-AA10-A39686A4DFA5}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My136_single_number</RootNamespace>
+    <RootNamespace>My7reverse_integer</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
-    <ProjectName>136single_number</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -143,7 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="136single_number.cpp" />
+    <ClCompile Include="7reverse_integer.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
