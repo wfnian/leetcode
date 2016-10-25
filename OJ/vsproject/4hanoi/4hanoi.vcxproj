@@ -19,11 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E562A63C-E719-4873-8CDE-65EF1E0AB09E}</ProjectGuid>
+    <ProjectGuid>{08F6D223-9080-4ECE-A07F-959984BEB0F6}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>最少货币支付问题</RootNamespace>
+    <RootNamespace>My4hanoi</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
-    <ProjectName>least-money</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -143,7 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="最少货币支付问题.c" />
+    <ClCompile Include="4hanoi.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
