@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{7F47BC6B-9D74-4340-A94B-3B49C5A0263B}</ProjectGuid>
+    <ProjectGuid>{BF02C6A5-503A-4CF8-9E3D-A927C221245E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>lcsllength</RootNamespace>
+    <RootNamespace>My1two_sum</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -142,7 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="lcsl-length.c" />
+    <ClCompile Include="1two_sum.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

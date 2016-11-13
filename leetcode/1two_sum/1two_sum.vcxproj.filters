@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="lcsl-length.c">
+    <ClCompile Include="1two_sum.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
