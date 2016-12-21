@@ -107,7 +107,7 @@ void judge(int money,unsigned *result)
 	money = money % 1;
 	
 }
-int main() {
+int maain() {
 	unsigned result[7];
 	int money, n, j=0;
 	scanf("%d", &n);
@@ -119,5 +119,32 @@ int main() {
 		}
 		printf("\n");
 		j++;
+	}
+}
+#include<stdio.h>
+int main() {
+	int n;
+	while (scanf("%d", &n) != EOF) {
+		for (int j = 0; j < n; j++) {
+			int money, a[10];
+			scanf("%d", &money);
+			a[0] = money / 100;
+			money = money % 100;
+			a[1] = money / 50;
+			money = money % 50;
+			a[2] = money / 20;
+			money = money % 20;
+			a[3] = money / 10;
+			money = money % 10;
+			a[4] = money / 5;
+			money = money % 5;
+			a[5] = money / 2;
+			money = money % 2;
+			a[6] = money / 1;
+			money = money % 1;
+			for (int i = 0; i <= 6; i++)
+				printf("%d ", a[6 - i]);
+			printf("\n");
+		}
 	}
 }

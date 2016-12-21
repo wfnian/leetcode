@@ -1,7 +1,7 @@
 #include<stdio.h>
 #define Local
 int a[100];
-void quicksort(int n) {
+void bubblesort(int n) {
 	int i, j;
 	int temp;
 	for (i = 1; i < n; i++) {

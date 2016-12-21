@@ -10,7 +10,7 @@ int main() {
     printf("Please enter two numbers:");
     scanf("%d %d", &a, &b);
     while (b != 0) {
-        c = a%b; 
+        c = a%b;
         a = b;
         b = c;
     }
@@ -18,3 +18,4 @@ int main() {
 
     return 0;
 }
+//
