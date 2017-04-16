@@ -28,13 +28,49 @@ int kkk(int sum) {
 		return kkk(a);
 	return a;
 }
+int recur(n) {
+	return (n / 10>0) ? recur(n / 10) + n % 10 : n % 10;
+}
+
+int addDigits(int num) {
+	int tmp = num;
+	while (tmp / 10) {
+		tmp = recur(tmp);
+	}
+	return tmp;
+}
 int main()
 {
 	int num;
-	while (scanf("%d", &num)) {
+	while (scanf("%d", &num)!=EOF) {
 		if (num == 0)
 			break;
-		int b = kkk(num);
-		printf("%d\n", b);
+		if (num < 10) {
+			printf("%d\n", num);
+		}
+		else
+		{
+			int b = addDigits(num);
+			printf("%d\n", b);
+		}
 	}
+	return 0;
 }
+
+
+/*//附上通不过的python代码
+def Segmentation(num):
+	if len(str(num)) == 1:
+		return int(num)
+	else :
+		num = list(str(num))
+		sum = 0
+		for i in num:
+			sum+=int(i)
+		return Segmentation(sum)
+while True:
+	num = int(input())
+	if num == 0:
+		break
+	print(Segmentation(num))
+*/
