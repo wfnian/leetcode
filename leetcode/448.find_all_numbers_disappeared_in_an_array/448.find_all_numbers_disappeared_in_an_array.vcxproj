@@ -146,7 +146,7 @@
     <ClCompile Include="448find_all_numbers_disappeared_in_an_array.c" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\448find_all_numbers_disappeared_in_an_array.py" />
+    <None Include="448.find_all_numbers_disappeared_in_an_array.py" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
