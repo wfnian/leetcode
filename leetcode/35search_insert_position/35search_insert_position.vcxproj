@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{15558237-77E7-4748-A73A-C2C055698A6D}</ProjectGuid>
+    <ProjectGuid>{F5FB83D8-F277-454D-9127-04D1A5953A87}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My167two_sum_IIinput_array_is_sorted</RootNamespace>
+    <RootNamespace>My35search_insert_position</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -142,10 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="167two_sum_II-input_array_is_sorted.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="167two_sum_II-input_array_is_sorted.py" />
+    <ClCompile Include="35search_insert_position.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

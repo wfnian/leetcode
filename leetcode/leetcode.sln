@@ -141,6 +141,10 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "50pow(x,_n)", "50pow(x,_n)\
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "69sqrt(x)", "69sqrt(x)\69sqrt(x).pyproj", "{F5942B2B-95F9-449D-96A2-C3BEFC661781}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "367valid_perfect_square", "367valid_perfect_square\367valid_perfect_square.pyproj", "{54F26FDD-B868-45E4-A0DC-3FA0AADE4157}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "35search_insert_position", "35search_insert_position\35search_insert_position.vcxproj", "{F5FB83D8-F277-454D-9127-04D1A5953A87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -757,6 +761,22 @@ Global
 		{F5942B2B-95F9-449D-96A2-C3BEFC661781}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5942B2B-95F9-449D-96A2-C3BEFC661781}.Release|x64.ActiveCfg = Release|Any CPU
 		{F5942B2B-95F9-449D-96A2-C3BEFC661781}.Release|x86.ActiveCfg = Release|Any CPU
+		{54F26FDD-B868-45E4-A0DC-3FA0AADE4157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F26FDD-B868-45E4-A0DC-3FA0AADE4157}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{54F26FDD-B868-45E4-A0DC-3FA0AADE4157}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{54F26FDD-B868-45E4-A0DC-3FA0AADE4157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F26FDD-B868-45E4-A0DC-3FA0AADE4157}.Release|x64.ActiveCfg = Release|Any CPU
+		{54F26FDD-B868-45E4-A0DC-3FA0AADE4157}.Release|x86.ActiveCfg = Release|Any CPU
+		{F5FB83D8-F277-454D-9127-04D1A5953A87}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{F5FB83D8-F277-454D-9127-04D1A5953A87}.Debug|x64.ActiveCfg = Debug|x64
+		{F5FB83D8-F277-454D-9127-04D1A5953A87}.Debug|x64.Build.0 = Debug|x64
+		{F5FB83D8-F277-454D-9127-04D1A5953A87}.Debug|x86.ActiveCfg = Debug|Win32
+		{F5FB83D8-F277-454D-9127-04D1A5953A87}.Debug|x86.Build.0 = Debug|Win32
+		{F5FB83D8-F277-454D-9127-04D1A5953A87}.Release|Any CPU.ActiveCfg = Release|Win32
+		{F5FB83D8-F277-454D-9127-04D1A5953A87}.Release|x64.ActiveCfg = Release|x64
+		{F5FB83D8-F277-454D-9127-04D1A5953A87}.Release|x64.Build.0 = Release|x64
+		{F5FB83D8-F277-454D-9127-04D1A5953A87}.Release|x86.ActiveCfg = Release|Win32
+		{F5FB83D8-F277-454D-9127-04D1A5953A87}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

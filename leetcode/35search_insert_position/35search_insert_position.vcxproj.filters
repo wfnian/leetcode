@@ -15,13 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="167two_sum_II-input_array_is_sorted.c">
+    <ClCompile Include="35search_insert_position.c">
       <Filter>源文件</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="167two_sum_II-input_array_is_sorted.py">
-      <Filter>源文件</Filter>
-    </None>
   </ItemGroup>
 </Project>
