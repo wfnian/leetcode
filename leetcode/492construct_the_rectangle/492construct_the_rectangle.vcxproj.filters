@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="171excel_sheet_column_number.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="conversion.c">
+    <ClCompile Include="492construct_the_rectangle.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

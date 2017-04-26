@@ -6,8 +6,8 @@ class Solution(object):
         :rtype: bool
         """
         newNum = int(math.sqrt(num))
-        return newNum**2 == num         #·½·¨Ò»
+        return newNum**2 == num         #ï¿½ï¿½ï¿½ï¿½Ò»
         if (len(str(math.sqrt(num)))-len(str(int(math.sqrt(num))))>2):
-            return False                #·½·¨¶þ
+            return False                #ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         return True
-                                        #·½·¨Èý ¶þ·Ö·¨
+                                        #ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ö·ï¿½

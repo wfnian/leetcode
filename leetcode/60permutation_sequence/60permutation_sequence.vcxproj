@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{41462EF6-AF91-456B-826E-5A7A1A292AE6}</ProjectGuid>
+    <ProjectGuid>{C8789DD0-D96D-4651-A980-7EDCC281B9C1}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My171excel_sheet_column_number</RootNamespace>
+    <RootNamespace>My60permutation_sequence</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -142,8 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="171excel_sheet_column_number.c" />
-    <ClCompile Include="conversion.c" />
+    <ClCompile Include="60permutation_sequence.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

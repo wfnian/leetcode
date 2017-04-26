@@ -3,15 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>a6043d0c-b22e-497b-b582-4fab6c7ee219</ProjectGuid>
+    <ProjectGuid>fccd8c31-fb91-4a42-8e5b-18811daed6c1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>168excel_sheet_column_title.py</StartupFile>
+    <StartupFile>_386lexicographical_numbers.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>168excel_sheet_column_title</Name>
-    <RootNamespace>168excel_sheet_column_title</RootNamespace>
+    <Name>386lexicographical_numbers</Name>
+    <RootNamespace>386lexicographical_numbers</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="168excel_sheet_column_title.py" />
+    <Compile Include="_386lexicographical_numbers.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{41462EF6-AF91-456B-826E-5A7A1A292AE6}</ProjectGuid>
+    <ProjectGuid>{FB0A3C99-22A7-498C-9C23-A7F25C93F2EC}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My171excel_sheet_column_number</RootNamespace>
+    <RootNamespace>My397integer_replacement</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -142,8 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="171excel_sheet_column_number.c" />
-    <ClCompile Include="conversion.c" />
+    <ClCompile Include="397integer_replacement.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
