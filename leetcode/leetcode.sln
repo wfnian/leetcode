@@ -163,6 +163,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "125valid_palindrome", "125v
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "217contains_duplicate", "217contains_duplicate\217contains_duplicate.pyproj", "{6F2EB1A7-C4AD-4449-8DA5-AD56270FF669}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "137single_number_II", "137single_number_II\137single_number_II.pyproj", "{F5AA1E17-685D-4149-8401-FE563A807045}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -865,6 +867,12 @@ Global
 		{6F2EB1A7-C4AD-4449-8DA5-AD56270FF669}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F2EB1A7-C4AD-4449-8DA5-AD56270FF669}.Release|x64.ActiveCfg = Release|Any CPU
 		{6F2EB1A7-C4AD-4449-8DA5-AD56270FF669}.Release|x86.ActiveCfg = Release|Any CPU
+		{F5AA1E17-685D-4149-8401-FE563A807045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5AA1E17-685D-4149-8401-FE563A807045}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F5AA1E17-685D-4149-8401-FE563A807045}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F5AA1E17-685D-4149-8401-FE563A807045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5AA1E17-685D-4149-8401-FE563A807045}.Release|x64.ActiveCfg = Release|Any CPU
+		{F5AA1E17-685D-4149-8401-FE563A807045}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
