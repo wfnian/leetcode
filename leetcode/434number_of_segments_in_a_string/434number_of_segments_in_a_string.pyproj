@@ -3,15 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>5085079e-db92-44c7-9827-f2b5f1221678</ProjectGuid>
+    <ProjectGuid>31315354-b765-410d-91dd-b4b3d54fba3e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>_537complex_number_multiplication.py</StartupFile>
+    <StartupFile>_434number_of_segments_in_a_string.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>537complex_number_multiplication</Name>
-    <RootNamespace>537complex_number_multiplication</RootNamespace>
+    <Name>434number_of_segments_in_a_string</Name>
+    <RootNamespace>434number_of_segments_in_a_string</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="_537complex_number_multiplication.py" />
+    <Compile Include="_434number_of_segments_in_a_string.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

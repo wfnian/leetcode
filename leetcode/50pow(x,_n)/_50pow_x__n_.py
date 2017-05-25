@@ -6,3 +6,5 @@ class Solution(object):
         :rtype: float
         """
         return float(pow(x,n))
+a = Solution()
+print(a.myPow(2,4))
