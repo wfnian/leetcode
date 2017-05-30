@@ -9,6 +9,6 @@ class Solution(object):
         :type n: int
         :rtype: List[int]
         """
-        return [ eval(j) for j in sorted([str(i) for i in list(range(1,n+1))])]
+        return list(map(int,sorted(map(str,list(range(1,n))))))
 a = Solution()
 print(a.lexicalOrder(5000000))
