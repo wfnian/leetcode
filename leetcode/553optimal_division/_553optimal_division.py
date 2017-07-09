@@ -14,6 +14,7 @@ Other cases:
 1000/(100/(10/2)) = 50
 1000/100/10/2 = 0.5
 1000/100/(10/2) = 2
+
 """
 class Solution(object):
     def optimalDivision(self, nums):

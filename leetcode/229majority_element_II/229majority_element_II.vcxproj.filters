@@ -15,16 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="sort-bucketsort.c">
-      <Filter>头文件</Filter>
+    <ClCompile Include="229majority_element_II.c">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="data.in">
-      <Filter>头文件</Filter>
-    </None>
-    <None Include="data2.out">
-      <Filter>头文件</Filter>
+    <None Include="229majority_element_II.py">
+      <Filter>源文件</Filter>
     </None>
   </ItemGroup>
 </Project>
