@@ -20,7 +20,7 @@ bool isInCandies(int* candies, int candiesSize,int target) {
 	return false;
 }
 
-int distributeCandies(int* candies, int candiesSize) {
+int distributeCandies(int* candies, int candiesSize) {//这个解法效率不高
 	int array[2000],kinds = 0;
 	for (size_t i = 0; i < candiesSize; i++) 
 		if (!isInCandies(array, kinds, candies[i]))

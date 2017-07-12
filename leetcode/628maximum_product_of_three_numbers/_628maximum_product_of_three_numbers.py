@@ -11,14 +11,13 @@ Output: 24
 
 //要考虑负数情况！！！
 """
-class Solution(object):
+class Solution:
     def maximumProduct(self, nums):
         """
         :type nums: List[int]
         :rtype: int
         """
-        a = sorted(nums)
-        return max([a[0]*a[1]*a[-1],a[-1]*a[-2]*a[-3]])
-a = Solution()
-print(a.maximumProduct([-1,-2,3,4]))
-#[0,1,2,3][-1,0,1,2]
+        nums.sort()#[-5, -4, -3, 1, 2, 6, 7]
+        return max(nums[-1] * nums[-2] * nums[-3], nums[0] * nums[1] * nums[-1])
+#a = Solution()
+#a.maximumProduct([1,2,-3,-4,-5,6,7])

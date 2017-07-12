@@ -1,4 +1,6 @@
-#include<stdio.h>
+#include"C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdio.h"
+#include"C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\corecrt.h"
+#include"C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\corecrt_wstdio.h"
 int prim(int n) {
 	for (int i = 2; i < n; i++)
 		if (n%i == 0)
