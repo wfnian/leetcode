@@ -144,6 +144,9 @@
   <ItemGroup>
     <ClCompile Include="73set_matrix_zeroes.c" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="73set_matrix_zeroes.py" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
