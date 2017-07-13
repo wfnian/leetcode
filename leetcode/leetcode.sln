@@ -205,6 +205,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "598range_addition_II", "598
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "507perfect_number", "507perfect_number\507perfect_number.vcxproj", "{2314C89E-0E00-4ED8-AA17-9B14FC6BDD57}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "372super_pow", "372super_pow\372super_pow.pyproj", "{86353E44-0751-4B5B-A0E7-EE064BE195CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1077,6 +1079,12 @@ Global
 		{2314C89E-0E00-4ED8-AA17-9B14FC6BDD57}.Release|x64.Build.0 = Release|x64
 		{2314C89E-0E00-4ED8-AA17-9B14FC6BDD57}.Release|x86.ActiveCfg = Release|Win32
 		{2314C89E-0E00-4ED8-AA17-9B14FC6BDD57}.Release|x86.Build.0 = Release|Win32
+		{86353E44-0751-4B5B-A0E7-EE064BE195CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86353E44-0751-4B5B-A0E7-EE064BE195CD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{86353E44-0751-4B5B-A0E7-EE064BE195CD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{86353E44-0751-4B5B-A0E7-EE064BE195CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86353E44-0751-4B5B-A0E7-EE064BE195CD}.Release|x64.ActiveCfg = Release|Any CPU
+		{86353E44-0751-4B5B-A0E7-EE064BE195CD}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
