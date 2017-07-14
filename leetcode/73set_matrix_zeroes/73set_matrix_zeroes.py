@@ -1,7 +1,7 @@
 """
-C语言和这个差不多，做起来真累、、
-C语言版本是O（n）^4,效率太低
-python版本是O（n）^2
+C also can use this methord
+C used O(n)^4,
+python used O(n)^2
 """
 class Solution(object):
     def setZeroes(self, matrix):
@@ -31,8 +31,8 @@ class Solution(object):
         #return 0;
 
 s = Solution()
-a = int(input("行"))
-b = int(input("列"))
+a = int(input("锟斤拷"))
+b = int(input("锟斤拷"))
 matrix = [[]]
 for i in range(a):
     for j in range(b):
