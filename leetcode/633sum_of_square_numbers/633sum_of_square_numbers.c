@@ -2,6 +2,7 @@
 #include"stdbool.h"
 #include"math.h"
 //is there two number A and B can make C that A^2+B^2 = C?  C is known.
+//leetcode 633
 bool judgeSquareSum(int c) {//a^2 + b^2 = c
 	int b;
 	for (size_t i = 0; i <= c; i++) {
