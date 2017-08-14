@@ -11,7 +11,6 @@ return [0, 1].
 3
 3 2 4
 6
-
 */
 #include<stdio.h>
 #include<stdio.h>
@@ -40,5 +39,7 @@ int main() {
 	numss=twoSum(nums, numsSize, target);
 	for (i = 0; i < 3; i++)
 		printf("%d ", numss[i]);
+	
 	return 0;
+	
 }
