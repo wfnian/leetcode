@@ -215,6 +215,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "643maxImum_average_subarray
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "674longest_continuous_increasing_subsequence", "674longest_continuous_increasing_subsequence\674longest_continuous_increasing_subsequence.vcxproj", "{A46DC189-B755-42B2-9131-5FE38CAB6E4D}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "665non-decreasing_array", "665non-decreasing_array\665non-decreasing_array.pyproj", "{21DD64E4-A35A-4C25-9850-30E65DB56E2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1129,6 +1131,12 @@ Global
 		{A46DC189-B755-42B2-9131-5FE38CAB6E4D}.Release|x64.Build.0 = Release|x64
 		{A46DC189-B755-42B2-9131-5FE38CAB6E4D}.Release|x86.ActiveCfg = Release|Win32
 		{A46DC189-B755-42B2-9131-5FE38CAB6E4D}.Release|x86.Build.0 = Release|Win32
+		{21DD64E4-A35A-4C25-9850-30E65DB56E2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21DD64E4-A35A-4C25-9850-30E65DB56E2F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{21DD64E4-A35A-4C25-9850-30E65DB56E2F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{21DD64E4-A35A-4C25-9850-30E65DB56E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21DD64E4-A35A-4C25-9850-30E65DB56E2F}.Release|x64.ActiveCfg = Release|Any CPU
+		{21DD64E4-A35A-4C25-9850-30E65DB56E2F}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
