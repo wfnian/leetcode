@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.15
+VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7reverse_integer", "7reverse_integer\7reverse_integer.vcxproj", "{286D6F1F-D84A-417D-AA10-A39686A4DFA5}"
 EndProject
@@ -216,6 +216,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "674longest_continuous_increasing_subsequence", "674longest_continuous_increasing_subsequence\674longest_continuous_increasing_subsequence.vcxproj", "{A46DC189-B755-42B2-9131-5FE38CAB6E4D}"
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "665non-decreasing_array", "665non-decreasing_array\665non-decreasing_array.pyproj", "{21DD64E4-A35A-4C25-9850-30E65DB56E2F}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "657judge_route_circle", "657judge_route_circle\657judge_route_circle.pyproj", "{6B9DAD69-A6F8-43AB-9298-082BF1E318BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1137,8 +1139,17 @@ Global
 		{21DD64E4-A35A-4C25-9850-30E65DB56E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21DD64E4-A35A-4C25-9850-30E65DB56E2F}.Release|x64.ActiveCfg = Release|Any CPU
 		{21DD64E4-A35A-4C25-9850-30E65DB56E2F}.Release|x86.ActiveCfg = Release|Any CPU
+		{6B9DAD69-A6F8-43AB-9298-082BF1E318BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B9DAD69-A6F8-43AB-9298-082BF1E318BC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6B9DAD69-A6F8-43AB-9298-082BF1E318BC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6B9DAD69-A6F8-43AB-9298-082BF1E318BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B9DAD69-A6F8-43AB-9298-082BF1E318BC}.Release|x64.ActiveCfg = Release|Any CPU
+		{6B9DAD69-A6F8-43AB-9298-082BF1E318BC}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E25FBED-1AD0-43E3-9D03-65BDD8F68E9B}
 	EndGlobalSection
 EndGlobal
