@@ -243,3 +243,9 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+*.filters
+/leetcode/645set_mismatch/stdafx.h
+/leetcode/645set_mismatch/stdafx.cpp
+/leetcode/645set_mismatch/targetver.h
+/leetcode/645set_mismatch/ReadMe.txt
+/leetcode/645set_mismatch/stdafx.c

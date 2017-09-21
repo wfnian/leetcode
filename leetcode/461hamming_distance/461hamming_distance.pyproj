@@ -24,6 +24,11 @@
   <ItemGroup>
     <Compile Include="_461hamming_distance.py" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="461hamming_distance.c">
+      <SubType>Code</SubType>
+    </Content>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
   </PropertyGroup>
