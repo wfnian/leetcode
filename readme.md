@@ -4,7 +4,8 @@
     1 leetcode by myself
     2 oj of buct(Beijing University of chemical technology)
 ```
-**___mail:wfnian@gmail.com**
-<wfnian@gmail.com><1770547906@qq.com>
+**mail:**
+<wfnian@gmail.com>
+<1770547906@qq.com>
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
