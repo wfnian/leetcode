@@ -16,7 +16,7 @@ The binary representation of 7 is: 111.
 """
 #my solution:
 new = [0]
-for i in range(40):#列表法，10 = 2，101 = 5，1010 = 10 10101 = 21，101010 = 42…… pow(2,31)<new32;
+for i in range(32):#列表法，10 = 2，101 = 5，1010 = 10 10101 = 21，101010 = 42…… pow(2,31)<new32;
     if i%2==0:
         new.append(new[i]*2+1)
     else:
