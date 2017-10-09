@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.15
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7reverse_integer", "7reverse_integer\7reverse_integer.vcxproj", "{286D6F1F-D84A-417D-AA10-A39686A4DFA5}"
 EndProject
@@ -220,6 +220,14 @@ EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "657judge_route_circle", "657judge_route_circle\657judge_route_circle.pyproj", "{6B9DAD69-A6F8-43AB-9298-082BF1E318BC}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "645set_mismatch", "645set_mismatch\645set_mismatch.vcxproj", "{85487AF2-07AE-446A-96C2-68A8B5293AD9}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "686repeated_string_match", "686repeated_string_match\686repeated_string_match.pyproj", "{7613FC09-B1A3-4A43-9FE6-D6C1CAD8289F}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "682baseball_game", "682baseball_game\682baseball_game.pyproj", "{CD340FA2-10A7-41B2-B281-FC2FC1EDE344}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "535encode_and_decode_tinyurl", "534design_tinyurl\535encode_and_decode_tinyurl.pyproj", "{AA6C607D-BDA5-45A2-8058-4CAB3D5C5561}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "693binary_number_with_alternating_bits", "693binary_number_with_alternating_bits\693binary_number_with_alternating_bits.pyproj", "{150AAD76-0D50-4DBD-9F44-B5D7A2D6E1C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1157,6 +1165,30 @@ Global
 		{85487AF2-07AE-446A-96C2-68A8B5293AD9}.Release|x64.Build.0 = Release|x64
 		{85487AF2-07AE-446A-96C2-68A8B5293AD9}.Release|x86.ActiveCfg = Release|Win32
 		{85487AF2-07AE-446A-96C2-68A8B5293AD9}.Release|x86.Build.0 = Release|Win32
+		{7613FC09-B1A3-4A43-9FE6-D6C1CAD8289F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7613FC09-B1A3-4A43-9FE6-D6C1CAD8289F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7613FC09-B1A3-4A43-9FE6-D6C1CAD8289F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7613FC09-B1A3-4A43-9FE6-D6C1CAD8289F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7613FC09-B1A3-4A43-9FE6-D6C1CAD8289F}.Release|x64.ActiveCfg = Release|Any CPU
+		{7613FC09-B1A3-4A43-9FE6-D6C1CAD8289F}.Release|x86.ActiveCfg = Release|Any CPU
+		{CD340FA2-10A7-41B2-B281-FC2FC1EDE344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD340FA2-10A7-41B2-B281-FC2FC1EDE344}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CD340FA2-10A7-41B2-B281-FC2FC1EDE344}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CD340FA2-10A7-41B2-B281-FC2FC1EDE344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD340FA2-10A7-41B2-B281-FC2FC1EDE344}.Release|x64.ActiveCfg = Release|Any CPU
+		{CD340FA2-10A7-41B2-B281-FC2FC1EDE344}.Release|x86.ActiveCfg = Release|Any CPU
+		{AA6C607D-BDA5-45A2-8058-4CAB3D5C5561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA6C607D-BDA5-45A2-8058-4CAB3D5C5561}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AA6C607D-BDA5-45A2-8058-4CAB3D5C5561}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AA6C607D-BDA5-45A2-8058-4CAB3D5C5561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA6C607D-BDA5-45A2-8058-4CAB3D5C5561}.Release|x64.ActiveCfg = Release|Any CPU
+		{AA6C607D-BDA5-45A2-8058-4CAB3D5C5561}.Release|x86.ActiveCfg = Release|Any CPU
+		{150AAD76-0D50-4DBD-9F44-B5D7A2D6E1C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{150AAD76-0D50-4DBD-9F44-B5D7A2D6E1C0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{150AAD76-0D50-4DBD-9F44-B5D7A2D6E1C0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{150AAD76-0D50-4DBD-9F44-B5D7A2D6E1C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{150AAD76-0D50-4DBD-9F44-B5D7A2D6E1C0}.Release|x64.ActiveCfg = Release|Any CPU
+		{150AAD76-0D50-4DBD-9F44-B5D7A2D6E1C0}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
