@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7reverse_integer", "7reverse_integer\7reverse_integer.vcxproj", "{286D6F1F-D84A-417D-AA10-A39686A4DFA5}"
 EndProject
@@ -228,6 +228,10 @@ EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "535encode_and_decode_tinyurl", "534design_tinyurl\535encode_and_decode_tinyurl.pyproj", "{AA6C607D-BDA5-45A2-8058-4CAB3D5C5561}"
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "693binary_number_with_alternating_bits", "693binary_number_with_alternating_bits\693binary_number_with_alternating_bits.pyproj", "{150AAD76-0D50-4DBD-9F44-B5D7A2D6E1C0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10regular_expression_matching", "10regular_expression_matching\10regular_expression_matching.vcxproj", "{10560D6A-CA10-4E7D-A78A-22F4EE41FE21}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "680valid_palindrome_II", "680valid_palindrome_II\680valid_palindrome_II.pyproj", "{D51FCAC9-5030-45F3-A27B-E2F5129DEA72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1189,6 +1193,22 @@ Global
 		{150AAD76-0D50-4DBD-9F44-B5D7A2D6E1C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{150AAD76-0D50-4DBD-9F44-B5D7A2D6E1C0}.Release|x64.ActiveCfg = Release|Any CPU
 		{150AAD76-0D50-4DBD-9F44-B5D7A2D6E1C0}.Release|x86.ActiveCfg = Release|Any CPU
+		{10560D6A-CA10-4E7D-A78A-22F4EE41FE21}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{10560D6A-CA10-4E7D-A78A-22F4EE41FE21}.Debug|x64.ActiveCfg = Debug|x64
+		{10560D6A-CA10-4E7D-A78A-22F4EE41FE21}.Debug|x64.Build.0 = Debug|x64
+		{10560D6A-CA10-4E7D-A78A-22F4EE41FE21}.Debug|x86.ActiveCfg = Debug|Win32
+		{10560D6A-CA10-4E7D-A78A-22F4EE41FE21}.Debug|x86.Build.0 = Debug|Win32
+		{10560D6A-CA10-4E7D-A78A-22F4EE41FE21}.Release|Any CPU.ActiveCfg = Release|Win32
+		{10560D6A-CA10-4E7D-A78A-22F4EE41FE21}.Release|x64.ActiveCfg = Release|x64
+		{10560D6A-CA10-4E7D-A78A-22F4EE41FE21}.Release|x64.Build.0 = Release|x64
+		{10560D6A-CA10-4E7D-A78A-22F4EE41FE21}.Release|x86.ActiveCfg = Release|Win32
+		{10560D6A-CA10-4E7D-A78A-22F4EE41FE21}.Release|x86.Build.0 = Release|Win32
+		{D51FCAC9-5030-45F3-A27B-E2F5129DEA72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D51FCAC9-5030-45F3-A27B-E2F5129DEA72}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D51FCAC9-5030-45F3-A27B-E2F5129DEA72}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D51FCAC9-5030-45F3-A27B-E2F5129DEA72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D51FCAC9-5030-45F3-A27B-E2F5129DEA72}.Release|x64.ActiveCfg = Release|Any CPU
+		{D51FCAC9-5030-45F3-A27B-E2F5129DEA72}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
