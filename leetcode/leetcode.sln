@@ -235,6 +235,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "680valid_palindrome_II", "6
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "667beautiful_arrangement_II", "667beautiful_arrangement_II\667beautiful_arrangement_II.vcxproj", "{C66F6535-F433-4C2E-A86E-4F7D2D6083E5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "567permutation_in_string", "567permutation_in_string\567permutation_in_string.vcxproj", "{2E8F41E7-8930-46DE-9630-176D18E94963}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1221,6 +1223,16 @@ Global
 		{C66F6535-F433-4C2E-A86E-4F7D2D6083E5}.Release|x64.Build.0 = Release|x64
 		{C66F6535-F433-4C2E-A86E-4F7D2D6083E5}.Release|x86.ActiveCfg = Release|Win32
 		{C66F6535-F433-4C2E-A86E-4F7D2D6083E5}.Release|x86.Build.0 = Release|Win32
+		{2E8F41E7-8930-46DE-9630-176D18E94963}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{2E8F41E7-8930-46DE-9630-176D18E94963}.Debug|x64.ActiveCfg = Debug|x64
+		{2E8F41E7-8930-46DE-9630-176D18E94963}.Debug|x64.Build.0 = Debug|x64
+		{2E8F41E7-8930-46DE-9630-176D18E94963}.Debug|x86.ActiveCfg = Debug|Win32
+		{2E8F41E7-8930-46DE-9630-176D18E94963}.Debug|x86.Build.0 = Debug|Win32
+		{2E8F41E7-8930-46DE-9630-176D18E94963}.Release|Any CPU.ActiveCfg = Release|Win32
+		{2E8F41E7-8930-46DE-9630-176D18E94963}.Release|x64.ActiveCfg = Release|x64
+		{2E8F41E7-8930-46DE-9630-176D18E94963}.Release|x64.Build.0 = Release|x64
+		{2E8F41E7-8930-46DE-9630-176D18E94963}.Release|x86.ActiveCfg = Release|Win32
+		{2E8F41E7-8930-46DE-9630-176D18E94963}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
