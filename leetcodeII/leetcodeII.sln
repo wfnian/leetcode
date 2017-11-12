@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "leetcodeII", "leetcodeII\leetcodeII.vcxproj", "{35EA98C1-E0AE-4F14-A62F-B3603E596C8C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "567permutation_in_string", "leetcodeII\leetcodeII.vcxproj", "{35EA98C1-E0AE-4F14-A62F-B3603E596C8C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "696count_binary_substrings", "696count_binary_substrings\696count_binary_substrings.vcxproj", "{A51D82B7-9980-42D9-8E7E-B711FFBB4B45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{35EA98C1-E0AE-4F14-A62F-B3603E596C8C}.Release|x64.Build.0 = Release|x64
 		{35EA98C1-E0AE-4F14-A62F-B3603E596C8C}.Release|x86.ActiveCfg = Release|Win32
 		{35EA98C1-E0AE-4F14-A62F-B3603E596C8C}.Release|x86.Build.0 = Release|Win32
+		{A51D82B7-9980-42D9-8E7E-B711FFBB4B45}.Debug|x64.ActiveCfg = Debug|x64
+		{A51D82B7-9980-42D9-8E7E-B711FFBB4B45}.Debug|x64.Build.0 = Debug|x64
+		{A51D82B7-9980-42D9-8E7E-B711FFBB4B45}.Debug|x86.ActiveCfg = Debug|Win32
+		{A51D82B7-9980-42D9-8E7E-B711FFBB4B45}.Debug|x86.Build.0 = Debug|Win32
+		{A51D82B7-9980-42D9-8E7E-B711FFBB4B45}.Release|x64.ActiveCfg = Release|x64
+		{A51D82B7-9980-42D9-8E7E-B711FFBB4B45}.Release|x64.Build.0 = Release|x64
+		{A51D82B7-9980-42D9-8E7E-B711FFBB4B45}.Release|x86.ActiveCfg = Release|Win32
+		{A51D82B7-9980-42D9-8E7E-B711FFBB4B45}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
