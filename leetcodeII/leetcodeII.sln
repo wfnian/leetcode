@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "696count_binary_substrings"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "724find_pivot_index", "724find_pivot_index\724find_pivot_index.vcxproj", "{A9563062-2CFE-45C4-957A-7BE6030E5FFB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "717a-bit_and_2-bit_characters", "717a-bit_and_2-bit_characters\717a-bit_and_2-bit_characters.vcxproj", "{5B2F24E0-74B0-4BBB-87AC-F3AB9E427D9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{A9563062-2CFE-45C4-957A-7BE6030E5FFB}.Release|x64.Build.0 = Release|x64
 		{A9563062-2CFE-45C4-957A-7BE6030E5FFB}.Release|x86.ActiveCfg = Release|Win32
 		{A9563062-2CFE-45C4-957A-7BE6030E5FFB}.Release|x86.Build.0 = Release|Win32
+		{5B2F24E0-74B0-4BBB-87AC-F3AB9E427D9D}.Debug|x64.ActiveCfg = Debug|x64
+		{5B2F24E0-74B0-4BBB-87AC-F3AB9E427D9D}.Debug|x64.Build.0 = Debug|x64
+		{5B2F24E0-74B0-4BBB-87AC-F3AB9E427D9D}.Debug|x86.ActiveCfg = Debug|Win32
+		{5B2F24E0-74B0-4BBB-87AC-F3AB9E427D9D}.Debug|x86.Build.0 = Debug|Win32
+		{5B2F24E0-74B0-4BBB-87AC-F3AB9E427D9D}.Release|x64.ActiveCfg = Release|x64
+		{5B2F24E0-74B0-4BBB-87AC-F3AB9E427D9D}.Release|x64.Build.0 = Release|x64
+		{5B2F24E0-74B0-4BBB-87AC-F3AB9E427D9D}.Release|x86.ActiveCfg = Release|Win32
+		{5B2F24E0-74B0-4BBB-87AC-F3AB9E427D9D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
