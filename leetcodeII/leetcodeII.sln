@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "724find_pivot_index", "724f
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "717a-bit_and_2-bit_characters", "717a-bit_and_2-bit_characters\717a-bit_and_2-bit_characters.vcxproj", "{5B2F24E0-74B0-4BBB-87AC-F3AB9E427D9D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "728self_dividing_numbers", "728self_dividing_numbers\728self_dividing_numbers.vcxproj", "{56BC2176-B1B7-419E-8A39-62C7797AB2EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{5B2F24E0-74B0-4BBB-87AC-F3AB9E427D9D}.Release|x64.Build.0 = Release|x64
 		{5B2F24E0-74B0-4BBB-87AC-F3AB9E427D9D}.Release|x86.ActiveCfg = Release|Win32
 		{5B2F24E0-74B0-4BBB-87AC-F3AB9E427D9D}.Release|x86.Build.0 = Release|Win32
+		{56BC2176-B1B7-419E-8A39-62C7797AB2EA}.Debug|x64.ActiveCfg = Debug|x64
+		{56BC2176-B1B7-419E-8A39-62C7797AB2EA}.Debug|x64.Build.0 = Debug|x64
+		{56BC2176-B1B7-419E-8A39-62C7797AB2EA}.Debug|x86.ActiveCfg = Debug|Win32
+		{56BC2176-B1B7-419E-8A39-62C7797AB2EA}.Debug|x86.Build.0 = Debug|Win32
+		{56BC2176-B1B7-419E-8A39-62C7797AB2EA}.Release|x64.ActiveCfg = Release|x64
+		{56BC2176-B1B7-419E-8A39-62C7797AB2EA}.Release|x64.Build.0 = Release|x64
+		{56BC2176-B1B7-419E-8A39-62C7797AB2EA}.Release|x86.ActiveCfg = Release|Win32
+		{56BC2176-B1B7-419E-8A39-62C7797AB2EA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
