@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2008
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "567permutation_in_string", "leetcodeII\leetcodeII.vcxproj", "{35EA98C1-E0AE-4F14-A62F-B3603E596C8C}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "717a-bit_and_2-bit_characters", "717a-bit_and_2-bit_characters\717a-bit_and_2-bit_characters.vcxproj", "{5B2F24E0-74B0-4BBB-87AC-F3AB9E427D9D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "728self_dividing_numbers", "728self_dividing_numbers\728self_dividing_numbers.vcxproj", "{56BC2176-B1B7-419E-8A39-62C7797AB2EA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "682baseball_game", "682baseball_game\682baseball_game.vcxproj", "{8E39BD64-35DF-4675-BE19-3529766EDDBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,14 @@ Global
 		{56BC2176-B1B7-419E-8A39-62C7797AB2EA}.Release|x64.Build.0 = Release|x64
 		{56BC2176-B1B7-419E-8A39-62C7797AB2EA}.Release|x86.ActiveCfg = Release|Win32
 		{56BC2176-B1B7-419E-8A39-62C7797AB2EA}.Release|x86.Build.0 = Release|Win32
+		{8E39BD64-35DF-4675-BE19-3529766EDDBB}.Debug|x64.ActiveCfg = Debug|x64
+		{8E39BD64-35DF-4675-BE19-3529766EDDBB}.Debug|x64.Build.0 = Debug|x64
+		{8E39BD64-35DF-4675-BE19-3529766EDDBB}.Debug|x86.ActiveCfg = Debug|Win32
+		{8E39BD64-35DF-4675-BE19-3529766EDDBB}.Debug|x86.Build.0 = Debug|Win32
+		{8E39BD64-35DF-4675-BE19-3529766EDDBB}.Release|x64.ActiveCfg = Release|x64
+		{8E39BD64-35DF-4675-BE19-3529766EDDBB}.Release|x64.Build.0 = Release|x64
+		{8E39BD64-35DF-4675-BE19-3529766EDDBB}.Release|x86.ActiveCfg = Release|Win32
+		{8E39BD64-35DF-4675-BE19-3529766EDDBB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
