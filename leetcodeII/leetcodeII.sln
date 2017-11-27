@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "31next_permutation", "31nex
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "47permutations_II", "47permutations_II\47permutations_II.vcxproj", "{AAEBA99A-88CF-4F5E-9B39-1ED40EB8BD9A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "60permutation_sequence", "60permutation_sequence\60permutation_sequence.vcxproj", "{F2383213-FECE-4A40-AD13-1B121498642A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{AAEBA99A-88CF-4F5E-9B39-1ED40EB8BD9A}.Release|x64.Build.0 = Release|x64
 		{AAEBA99A-88CF-4F5E-9B39-1ED40EB8BD9A}.Release|x86.ActiveCfg = Release|Win32
 		{AAEBA99A-88CF-4F5E-9B39-1ED40EB8BD9A}.Release|x86.Build.0 = Release|Win32
+		{F2383213-FECE-4A40-AD13-1B121498642A}.Debug|x64.ActiveCfg = Debug|x64
+		{F2383213-FECE-4A40-AD13-1B121498642A}.Debug|x64.Build.0 = Debug|x64
+		{F2383213-FECE-4A40-AD13-1B121498642A}.Debug|x86.ActiveCfg = Debug|Win32
+		{F2383213-FECE-4A40-AD13-1B121498642A}.Debug|x86.Build.0 = Debug|Win32
+		{F2383213-FECE-4A40-AD13-1B121498642A}.Release|x64.ActiveCfg = Release|x64
+		{F2383213-FECE-4A40-AD13-1B121498642A}.Release|x64.Build.0 = Release|x64
+		{F2383213-FECE-4A40-AD13-1B121498642A}.Release|x86.ActiveCfg = Release|Win32
+		{F2383213-FECE-4A40-AD13-1B121498642A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
