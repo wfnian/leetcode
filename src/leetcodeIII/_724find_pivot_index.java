@@ -3,12 +3,12 @@ package leetcodeIII;
 public class _724find_pivot_index {
     public static void main(String []args){
         int [] nums = {-1,-1,-1,0,1,1};
-        Solution solution = new Solution();
+        Solution724 solution = new Solution724();
         int i = solution.pivotIndex(nums);
         System.out.println(i);
     }
 }
-class Solution {
+class Solution724 {
     public int pivotIndex(int[] nums) {
         for (int i = 0; i < nums.length; i++)
             if(sum(nums,0,i)==sum(nums,i+1,nums.length))

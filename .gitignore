@@ -249,3 +249,6 @@ ModelManifest.xml
 /leetcode/645set_mismatch/targetver.h
 /leetcode/645set_mismatch/ReadMe.txt
 /leetcode/645set_mismatch/stdafx.c
+*.class
+*.iml
+/.idea

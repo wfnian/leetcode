@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "47permutations_II", "47perm
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "60permutation_sequence", "60permutation_sequence\60permutation_sequence.vcxproj", "{F2383213-FECE-4A40-AD13-1B121498642A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "739daily_temperatures", "739daily_temperatures\739daily_temperatures.vcxproj", "{8E24B66B-CC35-4AA2-A37B-4F3530CC9DF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{F2383213-FECE-4A40-AD13-1B121498642A}.Release|x64.Build.0 = Release|x64
 		{F2383213-FECE-4A40-AD13-1B121498642A}.Release|x86.ActiveCfg = Release|Win32
 		{F2383213-FECE-4A40-AD13-1B121498642A}.Release|x86.Build.0 = Release|Win32
+		{8E24B66B-CC35-4AA2-A37B-4F3530CC9DF6}.Debug|x64.ActiveCfg = Debug|x64
+		{8E24B66B-CC35-4AA2-A37B-4F3530CC9DF6}.Debug|x64.Build.0 = Debug|x64
+		{8E24B66B-CC35-4AA2-A37B-4F3530CC9DF6}.Debug|x86.ActiveCfg = Debug|Win32
+		{8E24B66B-CC35-4AA2-A37B-4F3530CC9DF6}.Debug|x86.Build.0 = Debug|Win32
+		{8E24B66B-CC35-4AA2-A37B-4F3530CC9DF6}.Release|x64.ActiveCfg = Release|x64
+		{8E24B66B-CC35-4AA2-A37B-4F3530CC9DF6}.Release|x64.Build.0 = Release|x64
+		{8E24B66B-CC35-4AA2-A37B-4F3530CC9DF6}.Release|x86.ActiveCfg = Release|Win32
+		{8E24B66B-CC35-4AA2-A37B-4F3530CC9DF6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
