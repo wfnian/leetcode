@@ -29,6 +29,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "738monotone_increasing_digi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "744find_smallest_letter_greater_than_target", "744find_smallest_letter_greater_than_target\744find_smallest_letter_greater_than_target.vcxproj", "{741BBC9D-F03F-44F8-802C-DA5DEE10FF49}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "441arranging_coins", "441arranging_coins\441arranging_coins.vcxproj", "{88F973A3-BDD9-42C2-9515-9088426BECA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,16 @@ Global
 		{741BBC9D-F03F-44F8-802C-DA5DEE10FF49}.Release|x64.Build.0 = Release|x64
 		{741BBC9D-F03F-44F8-802C-DA5DEE10FF49}.Release|x86.ActiveCfg = Release|Win32
 		{741BBC9D-F03F-44F8-802C-DA5DEE10FF49}.Release|x86.Build.0 = Release|Win32
+		{88F973A3-BDD9-42C2-9515-9088426BECA9}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{88F973A3-BDD9-42C2-9515-9088426BECA9}.Debug|x64.ActiveCfg = Debug|x64
+		{88F973A3-BDD9-42C2-9515-9088426BECA9}.Debug|x64.Build.0 = Debug|x64
+		{88F973A3-BDD9-42C2-9515-9088426BECA9}.Debug|x86.ActiveCfg = Debug|Win32
+		{88F973A3-BDD9-42C2-9515-9088426BECA9}.Debug|x86.Build.0 = Debug|Win32
+		{88F973A3-BDD9-42C2-9515-9088426BECA9}.Release|Any CPU.ActiveCfg = Release|Win32
+		{88F973A3-BDD9-42C2-9515-9088426BECA9}.Release|x64.ActiveCfg = Release|x64
+		{88F973A3-BDD9-42C2-9515-9088426BECA9}.Release|x64.Build.0 = Release|x64
+		{88F973A3-BDD9-42C2-9515-9088426BECA9}.Release|x86.ActiveCfg = Release|Win32
+		{88F973A3-BDD9-42C2-9515-9088426BECA9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
