@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "744find_smallest_letter_gre
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "441arranging_coins", "441arranging_coins\441arranging_coins.vcxproj", "{88F973A3-BDD9-42C2-9515-9088426BECA9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "540single_element_in_a_sorted_array", "540single_element_in_a_sorted_array\540single_element_in_a_sorted_array.vcxproj", "{223B7C38-7C01-4823-8AFE-6C9C18AD6FCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -177,6 +179,16 @@ Global
 		{88F973A3-BDD9-42C2-9515-9088426BECA9}.Release|x64.Build.0 = Release|x64
 		{88F973A3-BDD9-42C2-9515-9088426BECA9}.Release|x86.ActiveCfg = Release|Win32
 		{88F973A3-BDD9-42C2-9515-9088426BECA9}.Release|x86.Build.0 = Release|Win32
+		{223B7C38-7C01-4823-8AFE-6C9C18AD6FCD}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{223B7C38-7C01-4823-8AFE-6C9C18AD6FCD}.Debug|x64.ActiveCfg = Debug|x64
+		{223B7C38-7C01-4823-8AFE-6C9C18AD6FCD}.Debug|x64.Build.0 = Debug|x64
+		{223B7C38-7C01-4823-8AFE-6C9C18AD6FCD}.Debug|x86.ActiveCfg = Debug|Win32
+		{223B7C38-7C01-4823-8AFE-6C9C18AD6FCD}.Debug|x86.Build.0 = Debug|Win32
+		{223B7C38-7C01-4823-8AFE-6C9C18AD6FCD}.Release|Any CPU.ActiveCfg = Release|Win32
+		{223B7C38-7C01-4823-8AFE-6C9C18AD6FCD}.Release|x64.ActiveCfg = Release|x64
+		{223B7C38-7C01-4823-8AFE-6C9C18AD6FCD}.Release|x64.Build.0 = Release|x64
+		{223B7C38-7C01-4823-8AFE-6C9C18AD6FCD}.Release|x86.ActiveCfg = Release|Win32
+		{223B7C38-7C01-4823-8AFE-6C9C18AD6FCD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
