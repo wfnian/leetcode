@@ -33,6 +33,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "441arranging_coins", "441ar
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "540single_element_in_a_sorted_array", "540single_element_in_a_sorted_array\540single_element_in_a_sorted_array.vcxproj", "{223B7C38-7C01-4823-8AFE-6C9C18AD6FCD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "747largest_number_greater_than_twice_of_others", "747largest_number_greater_than_twice_of_others\747largest_number_greater_than_twice_of_others.vcxproj", "{7F9CEC0F-180B-4B93-9EE7-44FA85FB29B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +191,16 @@ Global
 		{223B7C38-7C01-4823-8AFE-6C9C18AD6FCD}.Release|x64.Build.0 = Release|x64
 		{223B7C38-7C01-4823-8AFE-6C9C18AD6FCD}.Release|x86.ActiveCfg = Release|Win32
 		{223B7C38-7C01-4823-8AFE-6C9C18AD6FCD}.Release|x86.Build.0 = Release|Win32
+		{7F9CEC0F-180B-4B93-9EE7-44FA85FB29B3}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{7F9CEC0F-180B-4B93-9EE7-44FA85FB29B3}.Debug|x64.ActiveCfg = Debug|x64
+		{7F9CEC0F-180B-4B93-9EE7-44FA85FB29B3}.Debug|x64.Build.0 = Debug|x64
+		{7F9CEC0F-180B-4B93-9EE7-44FA85FB29B3}.Debug|x86.ActiveCfg = Debug|Win32
+		{7F9CEC0F-180B-4B93-9EE7-44FA85FB29B3}.Debug|x86.Build.0 = Debug|Win32
+		{7F9CEC0F-180B-4B93-9EE7-44FA85FB29B3}.Release|Any CPU.ActiveCfg = Release|Win32
+		{7F9CEC0F-180B-4B93-9EE7-44FA85FB29B3}.Release|x64.ActiveCfg = Release|x64
+		{7F9CEC0F-180B-4B93-9EE7-44FA85FB29B3}.Release|x64.Build.0 = Release|x64
+		{7F9CEC0F-180B-4B93-9EE7-44FA85FB29B3}.Release|x86.ActiveCfg = Release|Win32
+		{7F9CEC0F-180B-4B93-9EE7-44FA85FB29B3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
