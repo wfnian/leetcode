@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "540single_element_in_a_sort
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "747largest_number_greater_than_twice_of_others", "747largest_number_greater_than_twice_of_others\747largest_number_greater_than_twice_of_others.vcxproj", "{7F9CEC0F-180B-4B93-9EE7-44FA85FB29B3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "503next_greater_element_II", "503next_greater_element_II\503next_greater_element_II.vcxproj", "{37128E64-5545-4E00-B29C-6B1F93E2173D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +203,16 @@ Global
 		{7F9CEC0F-180B-4B93-9EE7-44FA85FB29B3}.Release|x64.Build.0 = Release|x64
 		{7F9CEC0F-180B-4B93-9EE7-44FA85FB29B3}.Release|x86.ActiveCfg = Release|Win32
 		{7F9CEC0F-180B-4B93-9EE7-44FA85FB29B3}.Release|x86.Build.0 = Release|Win32
+		{37128E64-5545-4E00-B29C-6B1F93E2173D}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{37128E64-5545-4E00-B29C-6B1F93E2173D}.Debug|x64.ActiveCfg = Debug|x64
+		{37128E64-5545-4E00-B29C-6B1F93E2173D}.Debug|x64.Build.0 = Debug|x64
+		{37128E64-5545-4E00-B29C-6B1F93E2173D}.Debug|x86.ActiveCfg = Debug|Win32
+		{37128E64-5545-4E00-B29C-6B1F93E2173D}.Debug|x86.Build.0 = Debug|Win32
+		{37128E64-5545-4E00-B29C-6B1F93E2173D}.Release|Any CPU.ActiveCfg = Release|Win32
+		{37128E64-5545-4E00-B29C-6B1F93E2173D}.Release|x64.ActiveCfg = Release|x64
+		{37128E64-5545-4E00-B29C-6B1F93E2173D}.Release|x64.Build.0 = Release|x64
+		{37128E64-5545-4E00-B29C-6B1F93E2173D}.Release|x86.ActiveCfg = Release|Win32
+		{37128E64-5545-4E00-B29C-6B1F93E2173D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
