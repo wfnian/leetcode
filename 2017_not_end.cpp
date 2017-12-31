@@ -10,7 +10,8 @@ int main(int ac, char *av[]){
     const int day=31;
     const string firstly = "This is my last programer in 2017,";
     const string secondly = "but, I'm... not good at Goodbyes";
-
+    const int *affection_2017 = nullptr;
+    const int *affection_2018 = nullptr;
     vector<string> hopeless;
     hopeless.push_back(firstly);
     hopeless.push_back(secondly);
