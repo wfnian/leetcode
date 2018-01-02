@@ -252,3 +252,9 @@ ModelManifest.xml
 *.class
 *.iml
 /.idea
+/leetcodeII/556next_greater_element_III/stdafx.h
+/leetcodeII/556next_greater_element_III/targetver.h
+/leetcodeII/556next_greater_element_III/stdafx.cpp
+/stdafx.cpp
+/targetver.h
+*/stdafx.cpp
