@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "503next_greater_element_II"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "556next_greater_element_III", "556next_greater_element_III\556next_greater_element_III.vcxproj", "{1753BC58-CDC1-4D1E-A0D4-F461B6850B95}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "443string_compression", "443string_compression\443string_compression.vcxproj", "{F316CAB0-1533-417B-8CD9-DADBB8075899}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -225,6 +227,16 @@ Global
 		{1753BC58-CDC1-4D1E-A0D4-F461B6850B95}.Release|x64.Build.0 = Release|x64
 		{1753BC58-CDC1-4D1E-A0D4-F461B6850B95}.Release|x86.ActiveCfg = Release|Win32
 		{1753BC58-CDC1-4D1E-A0D4-F461B6850B95}.Release|x86.Build.0 = Release|Win32
+		{F316CAB0-1533-417B-8CD9-DADBB8075899}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{F316CAB0-1533-417B-8CD9-DADBB8075899}.Debug|x64.ActiveCfg = Debug|x64
+		{F316CAB0-1533-417B-8CD9-DADBB8075899}.Debug|x64.Build.0 = Debug|x64
+		{F316CAB0-1533-417B-8CD9-DADBB8075899}.Debug|x86.ActiveCfg = Debug|Win32
+		{F316CAB0-1533-417B-8CD9-DADBB8075899}.Debug|x86.Build.0 = Debug|Win32
+		{F316CAB0-1533-417B-8CD9-DADBB8075899}.Release|Any CPU.ActiveCfg = Release|Win32
+		{F316CAB0-1533-417B-8CD9-DADBB8075899}.Release|x64.ActiveCfg = Release|x64
+		{F316CAB0-1533-417B-8CD9-DADBB8075899}.Release|x64.Build.0 = Release|x64
+		{F316CAB0-1533-417B-8CD9-DADBB8075899}.Release|x86.ActiveCfg = Release|Win32
+		{F316CAB0-1533-417B-8CD9-DADBB8075899}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
