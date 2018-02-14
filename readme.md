@@ -1,6 +1,7 @@
 
 # Programming_Language
- `Leetcode` `BUCT oj` `Data Structers` `Algorithm` `c` `python` `cpp` `java` 
+ `Leetcode` `Data Structers` `Algorithm`   
+ `c` `python` `cpp` `java` 
 ___
 
 
