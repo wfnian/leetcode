@@ -43,6 +43,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "443string_compression", "44
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "760find_anagram_mappings", "760find_anagram_mappings\760find_anagram_mappings.vcxproj", "{81AF3AE6-DDAE-4E0B-A51D-C7B7493BDB45}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "771jewels_and_stones", "771jewels_and_stones\771jewels_and_stones.vcxproj", "{48FA996B-08D4-49F0-AB96-A8D86E4ACAAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -249,6 +251,16 @@ Global
 		{81AF3AE6-DDAE-4E0B-A51D-C7B7493BDB45}.Release|x64.Build.0 = Release|x64
 		{81AF3AE6-DDAE-4E0B-A51D-C7B7493BDB45}.Release|x86.ActiveCfg = Release|Win32
 		{81AF3AE6-DDAE-4E0B-A51D-C7B7493BDB45}.Release|x86.Build.0 = Release|Win32
+		{48FA996B-08D4-49F0-AB96-A8D86E4ACAAC}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{48FA996B-08D4-49F0-AB96-A8D86E4ACAAC}.Debug|x64.ActiveCfg = Debug|x64
+		{48FA996B-08D4-49F0-AB96-A8D86E4ACAAC}.Debug|x64.Build.0 = Debug|x64
+		{48FA996B-08D4-49F0-AB96-A8D86E4ACAAC}.Debug|x86.ActiveCfg = Debug|Win32
+		{48FA996B-08D4-49F0-AB96-A8D86E4ACAAC}.Debug|x86.Build.0 = Debug|Win32
+		{48FA996B-08D4-49F0-AB96-A8D86E4ACAAC}.Release|Any CPU.ActiveCfg = Release|Win32
+		{48FA996B-08D4-49F0-AB96-A8D86E4ACAAC}.Release|x64.ActiveCfg = Release|x64
+		{48FA996B-08D4-49F0-AB96-A8D86E4ACAAC}.Release|x64.Build.0 = Release|x64
+		{48FA996B-08D4-49F0-AB96-A8D86E4ACAAC}.Release|x86.ActiveCfg = Release|Win32
+		{48FA996B-08D4-49F0-AB96-A8D86E4ACAAC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
