@@ -61,6 +61,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "788rotated_digits", "788rot
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "804unique_morse_code_words", "804unique_morse_code_words\804unique_morse_code_words.vcxproj", "{93CD71D1-6FE2-40E4-A697-839F2A757226}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "806number_of_lines_to_write_string", "806number_of_lines_to_write_string\806number_of_lines_to_write_string.vcxproj", "{EE840C28-AE59-42AE-BB37-2B0319962E1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -357,6 +359,16 @@ Global
 		{93CD71D1-6FE2-40E4-A697-839F2A757226}.Release|x64.Build.0 = Release|x64
 		{93CD71D1-6FE2-40E4-A697-839F2A757226}.Release|x86.ActiveCfg = Release|Win32
 		{93CD71D1-6FE2-40E4-A697-839F2A757226}.Release|x86.Build.0 = Release|Win32
+		{EE840C28-AE59-42AE-BB37-2B0319962E1F}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{EE840C28-AE59-42AE-BB37-2B0319962E1F}.Debug|x64.ActiveCfg = Debug|x64
+		{EE840C28-AE59-42AE-BB37-2B0319962E1F}.Debug|x64.Build.0 = Debug|x64
+		{EE840C28-AE59-42AE-BB37-2B0319962E1F}.Debug|x86.ActiveCfg = Debug|Win32
+		{EE840C28-AE59-42AE-BB37-2B0319962E1F}.Debug|x86.Build.0 = Debug|Win32
+		{EE840C28-AE59-42AE-BB37-2B0319962E1F}.Release|Any CPU.ActiveCfg = Release|Win32
+		{EE840C28-AE59-42AE-BB37-2B0319962E1F}.Release|x64.ActiveCfg = Release|x64
+		{EE840C28-AE59-42AE-BB37-2B0319962E1F}.Release|x64.Build.0 = Release|x64
+		{EE840C28-AE59-42AE-BB37-2B0319962E1F}.Release|x86.ActiveCfg = Release|Win32
+		{EE840C28-AE59-42AE-BB37-2B0319962E1F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
