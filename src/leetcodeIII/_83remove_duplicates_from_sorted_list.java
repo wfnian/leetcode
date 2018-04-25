@@ -63,3 +63,21 @@ class Solution83 {
         return head;
     }
 }
+//class Solution {   //more effective 更有效率
+//    public ListNode deleteDuplicates(ListNode head) {
+//        ListNode temp=head;
+//        if(temp==null)
+//            return head;
+//        int data=temp.val;
+//        while(temp.next!=null){
+//            if(temp.next.val==data){
+//                temp.next=temp.next.next;
+//            }
+//            else{
+//                data=temp.next.val;
+//                temp=temp.next;
+//            }
+//        }
+//        return head;
+//    }
+//}
