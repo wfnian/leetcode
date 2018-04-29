@@ -71,6 +71,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3longest_substring_without_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "821shortest_distance_to_a_character", "821shortest_distance_to_a_character\821shortest_distance_to_a_character.vcxproj", "{03F2B65E-2184-4033-9BF0-3484778BA165}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "824goat_latin", "824goat_latin\824goat_latin.pyproj", "{6F69D340-BAA7-4A15-8D49-89C844B8CAE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -417,6 +419,12 @@ Global
 		{03F2B65E-2184-4033-9BF0-3484778BA165}.Release|x64.Build.0 = Release|x64
 		{03F2B65E-2184-4033-9BF0-3484778BA165}.Release|x86.ActiveCfg = Release|Win32
 		{03F2B65E-2184-4033-9BF0-3484778BA165}.Release|x86.Build.0 = Release|Win32
+		{6F69D340-BAA7-4A15-8D49-89C844B8CAE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F69D340-BAA7-4A15-8D49-89C844B8CAE3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6F69D340-BAA7-4A15-8D49-89C844B8CAE3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6F69D340-BAA7-4A15-8D49-89C844B8CAE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F69D340-BAA7-4A15-8D49-89C844B8CAE3}.Release|x64.ActiveCfg = Release|Any CPU
+		{6F69D340-BAA7-4A15-8D49-89C844B8CAE3}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
