@@ -31,14 +31,7 @@ public class _83remove_duplicates_from_sorted_list {
         System.out.println("NULL");
     }
 }
-class ListNode {
-    int val;
-    ListNode next;
 
-    ListNode(int x) {
-        val = x;
-    }
-}
 class Solution83 {
     public ListNode deleteDuplicates(ListNode head) {
         int ans = 0;
