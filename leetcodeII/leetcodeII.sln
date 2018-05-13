@@ -77,6 +77,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "830positions_of_large_group
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "832flipping_an_image", "832flipping_an_image\832flipping_an_image.vcxproj", "{6731826B-7F90-40B4-ADF7-95176AE3474A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "833find_and_replace_in_string", "833find_and_replace_in_string\833find_and_replace_in_string.vcxproj", "{D2A188B6-8B2D-4C2F-B172-C5F578E85C63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -449,6 +451,16 @@ Global
 		{6731826B-7F90-40B4-ADF7-95176AE3474A}.Release|x64.Build.0 = Release|x64
 		{6731826B-7F90-40B4-ADF7-95176AE3474A}.Release|x86.ActiveCfg = Release|Win32
 		{6731826B-7F90-40B4-ADF7-95176AE3474A}.Release|x86.Build.0 = Release|Win32
+		{D2A188B6-8B2D-4C2F-B172-C5F578E85C63}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{D2A188B6-8B2D-4C2F-B172-C5F578E85C63}.Debug|x64.ActiveCfg = Debug|x64
+		{D2A188B6-8B2D-4C2F-B172-C5F578E85C63}.Debug|x64.Build.0 = Debug|x64
+		{D2A188B6-8B2D-4C2F-B172-C5F578E85C63}.Debug|x86.ActiveCfg = Debug|Win32
+		{D2A188B6-8B2D-4C2F-B172-C5F578E85C63}.Debug|x86.Build.0 = Debug|Win32
+		{D2A188B6-8B2D-4C2F-B172-C5F578E85C63}.Release|Any CPU.ActiveCfg = Release|Win32
+		{D2A188B6-8B2D-4C2F-B172-C5F578E85C63}.Release|x64.ActiveCfg = Release|x64
+		{D2A188B6-8B2D-4C2F-B172-C5F578E85C63}.Release|x64.Build.0 = Release|x64
+		{D2A188B6-8B2D-4C2F-B172-C5F578E85C63}.Release|x86.ActiveCfg = Release|Win32
+		{D2A188B6-8B2D-4C2F-B172-C5F578E85C63}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
