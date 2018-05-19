@@ -81,6 +81,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "833find_and_replace_in_stri
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "225implement_stack_using_queues", "225implement_stack_using_queues\225implement_stack_using_queues.pyproj", "{184A3241-7DEE-45ED-8840-409C23CC85FD}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "232implement_queue_using_stacks", "232implement_queue_using_stacks\232implement_queue_using_stacks.pyproj", "{A139CDD7-1360-4128-9848-2076FD875BBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -469,6 +471,12 @@ Global
 		{184A3241-7DEE-45ED-8840-409C23CC85FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{184A3241-7DEE-45ED-8840-409C23CC85FD}.Release|x64.ActiveCfg = Release|Any CPU
 		{184A3241-7DEE-45ED-8840-409C23CC85FD}.Release|x86.ActiveCfg = Release|Any CPU
+		{A139CDD7-1360-4128-9848-2076FD875BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A139CDD7-1360-4128-9848-2076FD875BBE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A139CDD7-1360-4128-9848-2076FD875BBE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A139CDD7-1360-4128-9848-2076FD875BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A139CDD7-1360-4128-9848-2076FD875BBE}.Release|x64.ActiveCfg = Release|Any CPU
+		{A139CDD7-1360-4128-9848-2076FD875BBE}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
