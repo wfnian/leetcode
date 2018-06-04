@@ -6,7 +6,7 @@ public class _2add_two_numbers {
         ListNode first = new ListNode(-1);
         ListNode head = first;
         ListNode last;
-        int[] list1 = {2, 4};
+        int[] list1 = {2, 8, 6};
         int[] list2 = {2, 4, 3};
         for (int aList1 : list1) {
             last = new ListNode(aList1);
@@ -31,6 +31,9 @@ public class _2add_two_numbers {
 
         Solution2_ solution2 = new Solution2_();
         solution2.addTwoNumbers(first.next, first2.next);
+        for (ListNode node = first2.next; node != null; node = node.next)
+            System.out.print(node.val + "->");
+        System.out.println("NULL");
     }
 }
 
