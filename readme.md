@@ -1,6 +1,6 @@
 
 # Overview
- `Leetcode` `Data Structers` `Algorithm`   
+ `LeetCode` `Data Structers` `Algorithm`   
  `c` `python` `cpp` `java` 
 ___
 
@@ -9,7 +9,7 @@ ___
 ***This file include two main parts:***
  
 >>***1.leetcode program by myself***   [Leetcode,click to leetcode](https://leetcode.com/problemset/algorithms/)  
->>***2. oj of buct(Beijing University of chemical technology)***
+>>***~~2. oj of buct(Beijing University of chemical technology)~~***
 
 
  
