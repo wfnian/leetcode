@@ -13,8 +13,13 @@ struct ListNode
 
 
 /*
-liked list: 0->1->2->3->4
-++++++++++++=====|||=====
+========================
+head :  0->1->2->3->4
+	G:	0  1     3 
+========================
+if (isIn(G,head->val)&&(head->next==NULL||!isIn(G,head->next->val))) 
+				res++;
+
 I highlighed the subset G in linked list with color red.
 The problem is just to count how many red part there are.
 One red part is one connected components.
@@ -44,7 +49,7 @@ public:
 	}
 };
 int main() {
-	// 还是不会用 C++ 写链表。
+	// 还是不会用 C++ 写链表。java 相对容易理解在这方面
 	/*ListNode first(-1);
 	ListNode head = first;
 	
