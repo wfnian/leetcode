@@ -95,6 +95,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "817linked_list_components",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "848shifting_letters", "848shifting_letters\848shifting_letters.vcxproj", "{9B0C4F0C-F28E-4D38-B593-611A186C059A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "75sort_colors", "75sort_colors\75sort_colors.vcxproj", "{A024C47C-7296-4296-92B8-FF105BED0257}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -549,6 +551,16 @@ Global
 		{9B0C4F0C-F28E-4D38-B593-611A186C059A}.Release|x64.Build.0 = Release|x64
 		{9B0C4F0C-F28E-4D38-B593-611A186C059A}.Release|x86.ActiveCfg = Release|Win32
 		{9B0C4F0C-F28E-4D38-B593-611A186C059A}.Release|x86.Build.0 = Release|Win32
+		{A024C47C-7296-4296-92B8-FF105BED0257}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{A024C47C-7296-4296-92B8-FF105BED0257}.Debug|x64.ActiveCfg = Debug|x64
+		{A024C47C-7296-4296-92B8-FF105BED0257}.Debug|x64.Build.0 = Debug|x64
+		{A024C47C-7296-4296-92B8-FF105BED0257}.Debug|x86.ActiveCfg = Debug|Win32
+		{A024C47C-7296-4296-92B8-FF105BED0257}.Debug|x86.Build.0 = Debug|Win32
+		{A024C47C-7296-4296-92B8-FF105BED0257}.Release|Any CPU.ActiveCfg = Release|Win32
+		{A024C47C-7296-4296-92B8-FF105BED0257}.Release|x64.ActiveCfg = Release|x64
+		{A024C47C-7296-4296-92B8-FF105BED0257}.Release|x64.Build.0 = Release|x64
+		{A024C47C-7296-4296-92B8-FF105BED0257}.Release|x86.ActiveCfg = Release|Win32
+		{A024C47C-7296-4296-92B8-FF105BED0257}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
