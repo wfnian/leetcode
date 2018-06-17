@@ -97,6 +97,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "848shifting_letters", "848s
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "75sort_colors", "75sort_colors\75sort_colors.vcxproj", "{A024C47C-7296-4296-92B8-FF105BED0257}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "852peak_index_in_a_mountain_array", "852peak_index_in_a_mountain_array\852peak_index_in_a_mountain_array.vcxproj", "{EB895BEB-3A50-4481-8B41-CE77029D029B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -561,6 +563,16 @@ Global
 		{A024C47C-7296-4296-92B8-FF105BED0257}.Release|x64.Build.0 = Release|x64
 		{A024C47C-7296-4296-92B8-FF105BED0257}.Release|x86.ActiveCfg = Release|Win32
 		{A024C47C-7296-4296-92B8-FF105BED0257}.Release|x86.Build.0 = Release|Win32
+		{EB895BEB-3A50-4481-8B41-CE77029D029B}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{EB895BEB-3A50-4481-8B41-CE77029D029B}.Debug|x64.ActiveCfg = Debug|x64
+		{EB895BEB-3A50-4481-8B41-CE77029D029B}.Debug|x64.Build.0 = Debug|x64
+		{EB895BEB-3A50-4481-8B41-CE77029D029B}.Debug|x86.ActiveCfg = Debug|Win32
+		{EB895BEB-3A50-4481-8B41-CE77029D029B}.Debug|x86.Build.0 = Debug|Win32
+		{EB895BEB-3A50-4481-8B41-CE77029D029B}.Release|Any CPU.ActiveCfg = Release|Win32
+		{EB895BEB-3A50-4481-8B41-CE77029D029B}.Release|x64.ActiveCfg = Release|x64
+		{EB895BEB-3A50-4481-8B41-CE77029D029B}.Release|x64.Build.0 = Release|x64
+		{EB895BEB-3A50-4481-8B41-CE77029D029B}.Release|x86.ActiveCfg = Release|Win32
+		{EB895BEB-3A50-4481-8B41-CE77029D029B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
