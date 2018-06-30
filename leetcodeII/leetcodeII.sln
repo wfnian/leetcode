@@ -101,6 +101,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "852peak_index_in_a_mountain
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "53maximum_subarray", "53maximum_subarray\53maximum_subarray.vcxproj", "{11499855-FADC-4077-A77F-075C8D23BA3E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "121best_time_to_buy_and_sell_stock", "121best_time_to_buy_and_sell_stock\121best_time_to_buy_and_sell_stock.vcxproj", "{76EF90C8-6491-4DB5-8873-A079A20C599A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -585,6 +587,16 @@ Global
 		{11499855-FADC-4077-A77F-075C8D23BA3E}.Release|x64.Build.0 = Release|x64
 		{11499855-FADC-4077-A77F-075C8D23BA3E}.Release|x86.ActiveCfg = Release|Win32
 		{11499855-FADC-4077-A77F-075C8D23BA3E}.Release|x86.Build.0 = Release|Win32
+		{76EF90C8-6491-4DB5-8873-A079A20C599A}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{76EF90C8-6491-4DB5-8873-A079A20C599A}.Debug|x64.ActiveCfg = Debug|x64
+		{76EF90C8-6491-4DB5-8873-A079A20C599A}.Debug|x64.Build.0 = Debug|x64
+		{76EF90C8-6491-4DB5-8873-A079A20C599A}.Debug|x86.ActiveCfg = Debug|Win32
+		{76EF90C8-6491-4DB5-8873-A079A20C599A}.Debug|x86.Build.0 = Debug|Win32
+		{76EF90C8-6491-4DB5-8873-A079A20C599A}.Release|Any CPU.ActiveCfg = Release|Win32
+		{76EF90C8-6491-4DB5-8873-A079A20C599A}.Release|x64.ActiveCfg = Release|x64
+		{76EF90C8-6491-4DB5-8873-A079A20C599A}.Release|x64.Build.0 = Release|x64
+		{76EF90C8-6491-4DB5-8873-A079A20C599A}.Release|x86.ActiveCfg = Release|Win32
+		{76EF90C8-6491-4DB5-8873-A079A20C599A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
