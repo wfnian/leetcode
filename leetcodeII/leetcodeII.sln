@@ -107,6 +107,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "860lemonade_change", "860le
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "859buddy_strings", "859buddy_strings\859buddy_strings.vcxproj", "{66106ACD-C658-4E32-B747-621A7B2818B4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "868transpose_matrix", "868transpose_matrix\868transpose_matrix.vcxproj", "{139DC657-ED0F-48E7-9E20-25DC2074C066}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -621,6 +623,16 @@ Global
 		{66106ACD-C658-4E32-B747-621A7B2818B4}.Release|x64.Build.0 = Release|x64
 		{66106ACD-C658-4E32-B747-621A7B2818B4}.Release|x86.ActiveCfg = Release|Win32
 		{66106ACD-C658-4E32-B747-621A7B2818B4}.Release|x86.Build.0 = Release|Win32
+		{139DC657-ED0F-48E7-9E20-25DC2074C066}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{139DC657-ED0F-48E7-9E20-25DC2074C066}.Debug|x64.ActiveCfg = Debug|x64
+		{139DC657-ED0F-48E7-9E20-25DC2074C066}.Debug|x64.Build.0 = Debug|x64
+		{139DC657-ED0F-48E7-9E20-25DC2074C066}.Debug|x86.ActiveCfg = Debug|Win32
+		{139DC657-ED0F-48E7-9E20-25DC2074C066}.Debug|x86.Build.0 = Debug|Win32
+		{139DC657-ED0F-48E7-9E20-25DC2074C066}.Release|Any CPU.ActiveCfg = Release|Win32
+		{139DC657-ED0F-48E7-9E20-25DC2074C066}.Release|x64.ActiveCfg = Release|x64
+		{139DC657-ED0F-48E7-9E20-25DC2074C066}.Release|x64.Build.0 = Release|x64
+		{139DC657-ED0F-48E7-9E20-25DC2074C066}.Release|x86.ActiveCfg = Release|Win32
+		{139DC657-ED0F-48E7-9E20-25DC2074C066}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
