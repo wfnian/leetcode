@@ -111,6 +111,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "868transpose_matrix", "868t
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "762prime_number_of_set_bits_in_binary_representation", "762prime_number_of_set_bits_in_binary_representation\762prime_number_of_set_bits_in_binary_representation.vcxproj", "{B9F641D9-8D66-4E97-A97A-B3FB2267B0F7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "868binary_gap", "868binary_gap\868binary_gap.vcxproj", "{2582A4FC-CFC1-4E61-9DD9-F93EFCE55817}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -645,6 +647,16 @@ Global
 		{B9F641D9-8D66-4E97-A97A-B3FB2267B0F7}.Release|x64.Build.0 = Release|x64
 		{B9F641D9-8D66-4E97-A97A-B3FB2267B0F7}.Release|x86.ActiveCfg = Release|Win32
 		{B9F641D9-8D66-4E97-A97A-B3FB2267B0F7}.Release|x86.Build.0 = Release|Win32
+		{2582A4FC-CFC1-4E61-9DD9-F93EFCE55817}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{2582A4FC-CFC1-4E61-9DD9-F93EFCE55817}.Debug|x64.ActiveCfg = Debug|x64
+		{2582A4FC-CFC1-4E61-9DD9-F93EFCE55817}.Debug|x64.Build.0 = Debug|x64
+		{2582A4FC-CFC1-4E61-9DD9-F93EFCE55817}.Debug|x86.ActiveCfg = Debug|Win32
+		{2582A4FC-CFC1-4E61-9DD9-F93EFCE55817}.Debug|x86.Build.0 = Debug|Win32
+		{2582A4FC-CFC1-4E61-9DD9-F93EFCE55817}.Release|Any CPU.ActiveCfg = Release|Win32
+		{2582A4FC-CFC1-4E61-9DD9-F93EFCE55817}.Release|x64.ActiveCfg = Release|x64
+		{2582A4FC-CFC1-4E61-9DD9-F93EFCE55817}.Release|x64.Build.0 = Release|x64
+		{2582A4FC-CFC1-4E61-9DD9-F93EFCE55817}.Release|x86.ActiveCfg = Release|Win32
+		{2582A4FC-CFC1-4E61-9DD9-F93EFCE55817}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
