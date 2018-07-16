@@ -115,6 +115,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "868binary_gap", "868binary_
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "869reordered_power_of_2", "869reordered_power_of_2\869reordered_power_of_2.pyproj", "{FAF882B0-3FFD-4540-8D52-FA0A5054BC1F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "524longest_word_in_dictionary_through_deleting", "524longest_word_in_dictionary_through_deleting\524longest_word_in_dictionary_through_deleting.vcxproj", "{45201063-4FB0-42B8-AB60-1C786ECF82AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -665,6 +667,16 @@ Global
 		{FAF882B0-3FFD-4540-8D52-FA0A5054BC1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAF882B0-3FFD-4540-8D52-FA0A5054BC1F}.Release|x64.ActiveCfg = Release|Any CPU
 		{FAF882B0-3FFD-4540-8D52-FA0A5054BC1F}.Release|x86.ActiveCfg = Release|Any CPU
+		{45201063-4FB0-42B8-AB60-1C786ECF82AE}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{45201063-4FB0-42B8-AB60-1C786ECF82AE}.Debug|x64.ActiveCfg = Debug|x64
+		{45201063-4FB0-42B8-AB60-1C786ECF82AE}.Debug|x64.Build.0 = Debug|x64
+		{45201063-4FB0-42B8-AB60-1C786ECF82AE}.Debug|x86.ActiveCfg = Debug|Win32
+		{45201063-4FB0-42B8-AB60-1C786ECF82AE}.Debug|x86.Build.0 = Debug|Win32
+		{45201063-4FB0-42B8-AB60-1C786ECF82AE}.Release|Any CPU.ActiveCfg = Release|Win32
+		{45201063-4FB0-42B8-AB60-1C786ECF82AE}.Release|x64.ActiveCfg = Release|x64
+		{45201063-4FB0-42B8-AB60-1C786ECF82AE}.Release|x64.Build.0 = Release|x64
+		{45201063-4FB0-42B8-AB60-1C786ECF82AE}.Release|x86.ActiveCfg = Release|Win32
+		{45201063-4FB0-42B8-AB60-1C786ECF82AE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
