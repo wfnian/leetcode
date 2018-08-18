@@ -123,6 +123,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "709to_lower_case", "709to_l
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "884uncommon_words_from_two_sentences", "884uncommon_words_from_two_sentences\884uncommon_words_from_two_sentences.pyproj", "{DAF631EE-EAF9-44E5-82D3-C6522689774A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "885spiral_matrix_III", "885spiral_matrix_III\885spiral_matrix_III.vcxproj", "{A4D17C62-FB6A-45AF-8B0B-F8C74A8DCBE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -709,6 +711,16 @@ Global
 		{DAF631EE-EAF9-44E5-82D3-C6522689774A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAF631EE-EAF9-44E5-82D3-C6522689774A}.Release|x64.ActiveCfg = Release|Any CPU
 		{DAF631EE-EAF9-44E5-82D3-C6522689774A}.Release|x86.ActiveCfg = Release|Any CPU
+		{A4D17C62-FB6A-45AF-8B0B-F8C74A8DCBE9}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{A4D17C62-FB6A-45AF-8B0B-F8C74A8DCBE9}.Debug|x64.ActiveCfg = Debug|x64
+		{A4D17C62-FB6A-45AF-8B0B-F8C74A8DCBE9}.Debug|x64.Build.0 = Debug|x64
+		{A4D17C62-FB6A-45AF-8B0B-F8C74A8DCBE9}.Debug|x86.ActiveCfg = Debug|Win32
+		{A4D17C62-FB6A-45AF-8B0B-F8C74A8DCBE9}.Debug|x86.Build.0 = Debug|Win32
+		{A4D17C62-FB6A-45AF-8B0B-F8C74A8DCBE9}.Release|Any CPU.ActiveCfg = Release|Win32
+		{A4D17C62-FB6A-45AF-8B0B-F8C74A8DCBE9}.Release|x64.ActiveCfg = Release|x64
+		{A4D17C62-FB6A-45AF-8B0B-F8C74A8DCBE9}.Release|x64.Build.0 = Release|x64
+		{A4D17C62-FB6A-45AF-8B0B-F8C74A8DCBE9}.Release|x86.ActiveCfg = Release|Win32
+		{A4D17C62-FB6A-45AF-8B0B-F8C74A8DCBE9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
