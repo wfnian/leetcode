@@ -121,6 +121,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "720longest_word_in_dictiona
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "709to_lower_case", "709to_lower_case\709to_lower_case.vcxproj", "{954B0E61-6DFC-41D4-A7EC-6146E05635E7}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "884uncommon_words_from_two_sentences", "884uncommon_words_from_two_sentences\884uncommon_words_from_two_sentences.pyproj", "{DAF631EE-EAF9-44E5-82D3-C6522689774A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -701,6 +703,12 @@ Global
 		{954B0E61-6DFC-41D4-A7EC-6146E05635E7}.Release|x64.Build.0 = Release|x64
 		{954B0E61-6DFC-41D4-A7EC-6146E05635E7}.Release|x86.ActiveCfg = Release|Win32
 		{954B0E61-6DFC-41D4-A7EC-6146E05635E7}.Release|x86.Build.0 = Release|Win32
+		{DAF631EE-EAF9-44E5-82D3-C6522689774A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF631EE-EAF9-44E5-82D3-C6522689774A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DAF631EE-EAF9-44E5-82D3-C6522689774A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DAF631EE-EAF9-44E5-82D3-C6522689774A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF631EE-EAF9-44E5-82D3-C6522689774A}.Release|x64.ActiveCfg = Release|Any CPU
+		{DAF631EE-EAF9-44E5-82D3-C6522689774A}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
