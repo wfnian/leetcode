@@ -137,6 +137,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "876middle_of_the_linked_lis
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "141linked_list_cycle", "141linked_list_cycle\141linked_list_cycle.vcxproj", "{64DB333A-7011-4F18-93A8-176FA3454746}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "766toeplitz_matrix", "766toeplitz_matrix\766toeplitz_matrix.pyproj", "{C24FF90E-1A91-4DE8-9817-56FC3D3C80FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -793,6 +795,12 @@ Global
 		{64DB333A-7011-4F18-93A8-176FA3454746}.Release|x64.Build.0 = Release|x64
 		{64DB333A-7011-4F18-93A8-176FA3454746}.Release|x86.ActiveCfg = Release|Win32
 		{64DB333A-7011-4F18-93A8-176FA3454746}.Release|x86.Build.0 = Release|Win32
+		{C24FF90E-1A91-4DE8-9817-56FC3D3C80FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C24FF90E-1A91-4DE8-9817-56FC3D3C80FB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C24FF90E-1A91-4DE8-9817-56FC3D3C80FB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C24FF90E-1A91-4DE8-9817-56FC3D3C80FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C24FF90E-1A91-4DE8-9817-56FC3D3C80FB}.Release|x64.ActiveCfg = Release|Any CPU
+		{C24FF90E-1A91-4DE8-9817-56FC3D3C80FB}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
