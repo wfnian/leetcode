@@ -16,7 +16,10 @@
  ![](https://img.shields.io/badge/language-C-blue.svg) ![](https://img.shields.io/badge/language-CPP-blue.svg) ![](https://img.shields.io/badge/language-Java-blue.svg) ![](https://img.shields.io/badge/language-Python-blue.svg)
 
 # About Title formalize
-
+|用法一|用法二|
+|--|--|
+|![](https://github.com/wfnian/Programming_Language/blob/master/sundry/1.png?raw=true)|![](https://github.com/wfnian/Programming_Language/blob/master/sundry/2.png?raw=true)|
+|加入path更加方便|
 ```py
 #!/usr/bin/python3 
 import sys
