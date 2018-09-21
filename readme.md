@@ -46,6 +46,8 @@ ___
 <wfnian@gmail.com>  
 <1770547906@qq.com>
 
-   ![alt](https://pic3.zhimg.com/v2-ad582cdbe127ee352dc08c74d24506e2_xl.jpg "logo : little nightmares_little_six")        
+   ![alt](https://pic3.zhimg.com/v2-ad582cdbe127ee352dc08c74d24506e2_xl.jpg "logo : little nightmares_little_six")   
+
+---
 
 **END:君不见高堂明镜悲白发，朝如青丝暮成雪。**[为什么？](https://github.com/wfnian/learn_git/blob/master/utils.md)
