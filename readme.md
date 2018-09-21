@@ -29,9 +29,13 @@ if len(sys.argv) == 1:
                 title = input("please input title of LeetCode\n")
 else :
 	title = ' '.join(sys.argv[1:])
-formal_title = title.lower().replace('. ', '').replace(' ', '_').replace('i','I').replace('ii','II').replace('iii','III')
+formal_title = title.lower().replace(
+        '. ', '').replace(
+        ' ', '_').replace(
+        'i','I').replace(
+        'ii','II').replace(
+        'iii','III')
 print(formal_title)
-
 
 ```
 ___
