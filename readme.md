@@ -17,7 +17,7 @@
 # About Title formalize
 |用法一|用法二|
 |--|--|
-|![](https://github.com/wfnian/Programming_Language/blob/master/sundry/1.png?raw=true)|![](https://github.com/wfnian/Programming_Language/blob/master/sundry/2.png?raw=true)|
+|![](https://github.com/wfnian/Programming_Language/blob/master/sundry/1.jpg?raw=true)|![](https://github.com/wfnian/Programming_Language/blob/master/sundry/2.jpg?raw=true)|
 |加入path更加方便|
 ```py
 #!/usr/bin/python3 
@@ -33,6 +33,8 @@ else :
 formal_title = title.lower().replace(
         '. ', '').replace(
         ' ', '_')
+if formal_title[-3:]=='_i':
+        formal_title=formal_title[:-3]+'_I'
 if formal_title[-3:]=='_ii':
         formal_title=formal_title[:-3]+'_II'
 if formal_title[-4:]=='_iii':
