@@ -161,6 +161,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "917reverse_only_letters", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "922sort_array_by_parity_II", "922sort_array_by_parity_II\922sort_array_by_parity_II.vcxproj", "{35B02539-C1C7-412A-95DA-C64C6BF5E4EF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "925long_pressed_name", "925long_pressed_name\925long_pressed_name.vcxproj", "{EF139EEE-7829-4A7F-8B01-334FAD4D1550}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -933,6 +935,16 @@ Global
 		{35B02539-C1C7-412A-95DA-C64C6BF5E4EF}.Release|x64.Build.0 = Release|x64
 		{35B02539-C1C7-412A-95DA-C64C6BF5E4EF}.Release|x86.ActiveCfg = Release|Win32
 		{35B02539-C1C7-412A-95DA-C64C6BF5E4EF}.Release|x86.Build.0 = Release|Win32
+		{EF139EEE-7829-4A7F-8B01-334FAD4D1550}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{EF139EEE-7829-4A7F-8B01-334FAD4D1550}.Debug|x64.ActiveCfg = Debug|x64
+		{EF139EEE-7829-4A7F-8B01-334FAD4D1550}.Debug|x64.Build.0 = Debug|x64
+		{EF139EEE-7829-4A7F-8B01-334FAD4D1550}.Debug|x86.ActiveCfg = Debug|Win32
+		{EF139EEE-7829-4A7F-8B01-334FAD4D1550}.Debug|x86.Build.0 = Debug|Win32
+		{EF139EEE-7829-4A7F-8B01-334FAD4D1550}.Release|Any CPU.ActiveCfg = Release|Win32
+		{EF139EEE-7829-4A7F-8B01-334FAD4D1550}.Release|x64.ActiveCfg = Release|x64
+		{EF139EEE-7829-4A7F-8B01-334FAD4D1550}.Release|x64.Build.0 = Release|x64
+		{EF139EEE-7829-4A7F-8B01-334FAD4D1550}.Release|x86.ActiveCfg = Release|Win32
+		{EF139EEE-7829-4A7F-8B01-334FAD4D1550}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
