@@ -181,6 +181,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "589n-ary_tree_preorder_trav
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "559maximum_depth_of_n-ary_tree", "559maximum_depth_of_n-ary_tree\559maximum_depth_of_n-ary_tree.vcxproj", "{CCA71168-E2F1-4351-8A8A-5F065C943F49}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "897increasing_order_search_tree", "897increasing_order_search_tree\897increasing_order_search_tree.vcxproj", "{79D8EB63-BBD8-45CC-8F1D-CDBB5AAFF68D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1053,6 +1055,16 @@ Global
 		{CCA71168-E2F1-4351-8A8A-5F065C943F49}.Release|x64.Build.0 = Release|x64
 		{CCA71168-E2F1-4351-8A8A-5F065C943F49}.Release|x86.ActiveCfg = Release|Win32
 		{CCA71168-E2F1-4351-8A8A-5F065C943F49}.Release|x86.Build.0 = Release|Win32
+		{79D8EB63-BBD8-45CC-8F1D-CDBB5AAFF68D}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{79D8EB63-BBD8-45CC-8F1D-CDBB5AAFF68D}.Debug|x64.ActiveCfg = Debug|x64
+		{79D8EB63-BBD8-45CC-8F1D-CDBB5AAFF68D}.Debug|x64.Build.0 = Debug|x64
+		{79D8EB63-BBD8-45CC-8F1D-CDBB5AAFF68D}.Debug|x86.ActiveCfg = Debug|Win32
+		{79D8EB63-BBD8-45CC-8F1D-CDBB5AAFF68D}.Debug|x86.Build.0 = Debug|Win32
+		{79D8EB63-BBD8-45CC-8F1D-CDBB5AAFF68D}.Release|Any CPU.ActiveCfg = Release|Win32
+		{79D8EB63-BBD8-45CC-8F1D-CDBB5AAFF68D}.Release|x64.ActiveCfg = Release|x64
+		{79D8EB63-BBD8-45CC-8F1D-CDBB5AAFF68D}.Release|x64.Build.0 = Release|x64
+		{79D8EB63-BBD8-45CC-8F1D-CDBB5AAFF68D}.Release|x86.ActiveCfg = Release|Win32
+		{79D8EB63-BBD8-45CC-8F1D-CDBB5AAFF68D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
