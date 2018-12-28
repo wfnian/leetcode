@@ -191,6 +191,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "404sum_of_left_leaves", "40
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "654maximum_binary_tree", "654maximum_binary_tree\654maximum_binary_tree.vcxproj", "{787FB240-45B8-49B5-BB24-C09E30CA94DF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "814binary_tree_pruning", "814binary_tree_pruning\814binary_tree_pruning.vcxproj", "{20A5D0F1-72F2-43A7-9E6D-9BC945960C41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1113,6 +1115,16 @@ Global
 		{787FB240-45B8-49B5-BB24-C09E30CA94DF}.Release|x64.Build.0 = Release|x64
 		{787FB240-45B8-49B5-BB24-C09E30CA94DF}.Release|x86.ActiveCfg = Release|Win32
 		{787FB240-45B8-49B5-BB24-C09E30CA94DF}.Release|x86.Build.0 = Release|Win32
+		{20A5D0F1-72F2-43A7-9E6D-9BC945960C41}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{20A5D0F1-72F2-43A7-9E6D-9BC945960C41}.Debug|x64.ActiveCfg = Debug|x64
+		{20A5D0F1-72F2-43A7-9E6D-9BC945960C41}.Debug|x64.Build.0 = Debug|x64
+		{20A5D0F1-72F2-43A7-9E6D-9BC945960C41}.Debug|x86.ActiveCfg = Debug|Win32
+		{20A5D0F1-72F2-43A7-9E6D-9BC945960C41}.Debug|x86.Build.0 = Debug|Win32
+		{20A5D0F1-72F2-43A7-9E6D-9BC945960C41}.Release|Any CPU.ActiveCfg = Release|Win32
+		{20A5D0F1-72F2-43A7-9E6D-9BC945960C41}.Release|x64.ActiveCfg = Release|x64
+		{20A5D0F1-72F2-43A7-9E6D-9BC945960C41}.Release|x64.Build.0 = Release|x64
+		{20A5D0F1-72F2-43A7-9E6D-9BC945960C41}.Release|x86.ActiveCfg = Release|Win32
+		{20A5D0F1-72F2-43A7-9E6D-9BC945960C41}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
