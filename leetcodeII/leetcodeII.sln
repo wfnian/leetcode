@@ -151,8 +151,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "154fInd_mInImum_In_rotated_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "104maximum_depth_of_binary_tree", "104maximum_depth_of_binary_tree\104maximum_depth_of_binary_tree.vcxproj", "{98AACECB-A314-4ECF-B642-1F2C17B7039A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0binary_tree", "0binary_tree\0binary_tree.vcxproj", "{555ED2E1-EC61-4300-8BEA-E2224A38FE3D}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "94binary_tree_inorder_traversal", "94binary_tree_inorder_traversal\94binary_tree_inorder_traversal.vcxproj", "{BBE492AD-694B-42C4-993A-739C68989D72}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "144binary_tree_preorder_traversal", "144binary_tree_preorder_traversal\144binary_tree_preorder_traversal.vcxproj", "{8AF8D256-E696-413D-B932-D1A34F3009BB}"
@@ -919,16 +917,6 @@ Global
 		{98AACECB-A314-4ECF-B642-1F2C17B7039A}.Release|x64.Build.0 = Release|x64
 		{98AACECB-A314-4ECF-B642-1F2C17B7039A}.Release|x86.ActiveCfg = Release|Win32
 		{98AACECB-A314-4ECF-B642-1F2C17B7039A}.Release|x86.Build.0 = Release|Win32
-		{555ED2E1-EC61-4300-8BEA-E2224A38FE3D}.Debug|Any CPU.ActiveCfg = Debug|Win32
-		{555ED2E1-EC61-4300-8BEA-E2224A38FE3D}.Debug|x64.ActiveCfg = Debug|x64
-		{555ED2E1-EC61-4300-8BEA-E2224A38FE3D}.Debug|x64.Build.0 = Debug|x64
-		{555ED2E1-EC61-4300-8BEA-E2224A38FE3D}.Debug|x86.ActiveCfg = Debug|Win32
-		{555ED2E1-EC61-4300-8BEA-E2224A38FE3D}.Debug|x86.Build.0 = Debug|Win32
-		{555ED2E1-EC61-4300-8BEA-E2224A38FE3D}.Release|Any CPU.ActiveCfg = Release|Win32
-		{555ED2E1-EC61-4300-8BEA-E2224A38FE3D}.Release|x64.ActiveCfg = Release|x64
-		{555ED2E1-EC61-4300-8BEA-E2224A38FE3D}.Release|x64.Build.0 = Release|x64
-		{555ED2E1-EC61-4300-8BEA-E2224A38FE3D}.Release|x86.ActiveCfg = Release|Win32
-		{555ED2E1-EC61-4300-8BEA-E2224A38FE3D}.Release|x86.Build.0 = Release|Win32
 		{BBE492AD-694B-42C4-993A-739C68989D72}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{BBE492AD-694B-42C4-993A-739C68989D72}.Debug|x64.ActiveCfg = Debug|x64
 		{BBE492AD-694B-42C4-993A-739C68989D72}.Debug|x64.Build.0 = Debug|x64
