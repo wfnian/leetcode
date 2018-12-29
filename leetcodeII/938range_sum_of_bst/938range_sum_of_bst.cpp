@@ -43,25 +43,29 @@ public:
 
 };
 
-int rangeSumBST(struct TreeNode* root, int L, int R) {
-	if (root == NULL)
-		return 0;
-	int ans = 0;
-	queue<TreeNode*> tNode;
-	tNode.push(root);
-	while (!tNode.empty())
-	{
-		TreeNode *p = tNode.front();
-		if (p->val<=R&&p->val>=L)
-			ans += p->val;
-		tNode.pop();
-		if (p->left != nullptr)
-			tNode.push(p->left);
-		if (p->right != nullptr)
-			tNode.push(p->right);
+class Solution {
+public:
+	int rangeSumBST(struct TreeNode* root, int L, int R) {
+		if (root == NULL)
+			return 0;
+		int ans = 0;
+		queue<TreeNode*> tNode;
+		tNode.push(root);
+		while (!tNode.empty())
+		{
+			TreeNode *p = tNode.front();
+			if (p->val <= R && p->val >= L)
+				ans += p->val;
+			tNode.pop();
+			if (p->left != nullptr)
+				tNode.push(p->left);
+			if (p->right != nullptr)
+				tNode.push(p->right);
+		}
+		return ans;
 	}
-	return ans;
-}
+
+};
 
 int main()
 {
