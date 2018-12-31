@@ -4,27 +4,31 @@
 #include "pch.h"
 #include <iostream>
 #include <map>
+#include <unordered_map>
 #include <vector>
 
 using namespace std;
 class Solution {
 public:
 	int repeatedNTimes(vector<int>& A) {
-		map<int, int> ans;
+		unordered_map<int, int> ans;
 		for (size_t i = 0; i < A.size(); i++)
-		{
 			ans.insert(pair<int,int>(A[i], 0));
-		}
-		for (auto s : ans)
-			cout << s.first <<" "<< s.second << endl;
+		
+		for (size_t i = 0; i < A.size(); i++)
+			ans.at(A[i])++;
+
+		for (size_t i = 1; i <= ans.size(); i++)
+			if (ans[A[i]]==A.size()/2)
+				return A[i];
 
 		return 0;
 	}
 };
 int main()
 {
-	vector<int>v{ 5,1,5,2,5,3,5,4 };
-	Solution().repeatedNTimes(v);
+	vector<int>v{ 5,6,7,7 };
+	cout << Solution().repeatedNTimes(v) << endl;
     std::cout << "Hello World!\n"; 
 }
 
