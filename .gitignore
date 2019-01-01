@@ -252,4 +252,6 @@ ModelManifest.xml
 *.class
 *.iml
 /.idea
+pch.cpp
+pch.h
 
