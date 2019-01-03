@@ -1,5 +1,6 @@
-﻿// 105construct_binary_tree_from_preorder_and_inorder_traversal.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 106construct_binary_tree_from_postorder_and_postorder_traversal.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
+
 
 #include "pch.h"
 #include <iostream>
@@ -39,7 +40,7 @@ public:
 
 		}
 	}
-	
+
 	void inOrder(TreeNode *t) {
 		if (t != NULL)
 		{
@@ -87,24 +88,26 @@ public:
 
 class Solution {
 public:
-	TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
+	TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
 
 		TreeNode *t = nullptr;
-		if (preorder.size() > 0) {
-			t = new TreeNode(preorder[0]);
+		if (inorder.size() > 0) {
+			t = new TreeNode(postorder[postorder.size()-1]);
 			int tmp = 0;
-			for (int i(0); i < inorder.size(); i++) {
-				if (inorder[i] == preorder[0]) 
+			for (int i(0); i < postorder.size(); i++) {
+				if (inorder[i] == postorder[postorder.size() - 1]) {
 					tmp = i;
 					break;
 				}
-			
-			vector<int>a(inorder.begin(), inorder.begin() + tmp);
-			vector<int>b(inorder.begin() + tmp + 1, inorder.end());
-			vector<int>c(preorder.begin() + 1, preorder.begin() + tmp+1);
-			vector<int>d(preorder.begin() + tmp + 1, preorder.end());
-			t->left = buildTree(c,a);
-			t->right = buildTree(d,b);
+			}
+
+			vector<int>a(postorder.begin(), postorder.begin() + tmp);
+			vector<int>b(postorder.begin() + tmp, postorder.end()-1);
+			vector<int>c(inorder.begin(), inorder.begin() + tmp);
+			vector<int>d(inorder.begin() + tmp + 1, inorder.end());
+	
+			t->left = buildTree(c, a);
+			t->right = buildTree(d, b);
 		}
 		return t;
 	}
@@ -112,15 +115,16 @@ public:
 
 int main()
 {
-	//TreeNode *t;
-	//m_tree tree;
-	//tree.creatTree(t);
+	TreeNode *t;
+	m_tree tree;
+	tree.creatTree(t);
 	//1 2 4 -1 -1 5 8 -1 -1 -1 3 6 -1 9 10 -1 -1 11 -1 -1 7 -1 -1
-	vector<int>pre{ 1,2,4,5,8,3,6,9,10,11,7 };
+	//tree.inOrder(t);
+	vector<int>post { 4,8,5,2,10,11,9,6,7,3,1 };
 	vector<int>in{ 4,2,8,5,1,6,10,9,11,3,7 };
-	Solution().buildTree(pre, in);
+	Solution().buildTree(in, post);
 
-    std::cout << "Hello World!\n"; 
+	std::cout << "Hello World!\n";
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
