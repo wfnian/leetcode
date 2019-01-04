@@ -227,6 +227,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "105construct_binary_tree_fr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "106construct_binary_tree_from_inorder_and_postorder_traversal", "106construct_binary_tree_from_inorder_and_postorder_traversal\106construct_binary_tree_from_inorder_and_postorder_traversal.vcxproj", "{7C6E4D7A-63F7-4EED-85A2-018952108000}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "114flatten_binary_tree_to_linked_list", "114flatten_binary_tree_to_linked_list\114flatten_binary_tree_to_linked_list.vcxproj", "{868650C9-7CB4-4F19-9B1F-2358604E3DCC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1329,6 +1331,16 @@ Global
 		{7C6E4D7A-63F7-4EED-85A2-018952108000}.Release|x64.Build.0 = Release|x64
 		{7C6E4D7A-63F7-4EED-85A2-018952108000}.Release|x86.ActiveCfg = Release|Win32
 		{7C6E4D7A-63F7-4EED-85A2-018952108000}.Release|x86.Build.0 = Release|Win32
+		{868650C9-7CB4-4F19-9B1F-2358604E3DCC}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{868650C9-7CB4-4F19-9B1F-2358604E3DCC}.Debug|x64.ActiveCfg = Debug|x64
+		{868650C9-7CB4-4F19-9B1F-2358604E3DCC}.Debug|x64.Build.0 = Debug|x64
+		{868650C9-7CB4-4F19-9B1F-2358604E3DCC}.Debug|x86.ActiveCfg = Debug|Win32
+		{868650C9-7CB4-4F19-9B1F-2358604E3DCC}.Debug|x86.Build.0 = Debug|Win32
+		{868650C9-7CB4-4F19-9B1F-2358604E3DCC}.Release|Any CPU.ActiveCfg = Release|Win32
+		{868650C9-7CB4-4F19-9B1F-2358604E3DCC}.Release|x64.ActiveCfg = Release|x64
+		{868650C9-7CB4-4F19-9B1F-2358604E3DCC}.Release|x64.Build.0 = Release|x64
+		{868650C9-7CB4-4F19-9B1F-2358604E3DCC}.Release|x86.ActiveCfg = Release|Win32
+		{868650C9-7CB4-4F19-9B1F-2358604E3DCC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
