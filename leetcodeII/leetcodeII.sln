@@ -237,6 +237,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "970powerful_integers", "970
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "189rotate_array", "189rotate_array\189rotate_array.vcxproj", "{06AC922B-591D-43C4-B142-BCC46B91534A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "706design_hashmap", "706design_hashmap\706design_hashmap.vcxproj", "{0A9E6D3D-E87F-4334-A2B3-1F2327BCD9E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1389,6 +1391,16 @@ Global
 		{06AC922B-591D-43C4-B142-BCC46B91534A}.Release|x64.Build.0 = Release|x64
 		{06AC922B-591D-43C4-B142-BCC46B91534A}.Release|x86.ActiveCfg = Release|Win32
 		{06AC922B-591D-43C4-B142-BCC46B91534A}.Release|x86.Build.0 = Release|Win32
+		{0A9E6D3D-E87F-4334-A2B3-1F2327BCD9E0}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{0A9E6D3D-E87F-4334-A2B3-1F2327BCD9E0}.Debug|x64.ActiveCfg = Debug|x64
+		{0A9E6D3D-E87F-4334-A2B3-1F2327BCD9E0}.Debug|x64.Build.0 = Debug|x64
+		{0A9E6D3D-E87F-4334-A2B3-1F2327BCD9E0}.Debug|x86.ActiveCfg = Debug|Win32
+		{0A9E6D3D-E87F-4334-A2B3-1F2327BCD9E0}.Debug|x86.Build.0 = Debug|Win32
+		{0A9E6D3D-E87F-4334-A2B3-1F2327BCD9E0}.Release|Any CPU.ActiveCfg = Release|Win32
+		{0A9E6D3D-E87F-4334-A2B3-1F2327BCD9E0}.Release|x64.ActiveCfg = Release|x64
+		{0A9E6D3D-E87F-4334-A2B3-1F2327BCD9E0}.Release|x64.Build.0 = Release|x64
+		{0A9E6D3D-E87F-4334-A2B3-1F2327BCD9E0}.Release|x86.ActiveCfg = Release|Win32
+		{0A9E6D3D-E87F-4334-A2B3-1F2327BCD9E0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
