@@ -34,7 +34,7 @@ formal_title = title.lower().replace(
         '. ', '').replace(
         ' ', '_')
 if formal_title[-3:]=='_i':
-        formal_title=formal_title[:-3]+'_I'
+        formal_title=formal_title[:-2]+'_I'
 if formal_title[-3:]=='_ii':
         formal_title=formal_title[:-3]+'_II'
 if formal_title[-4:]=='_iii':
