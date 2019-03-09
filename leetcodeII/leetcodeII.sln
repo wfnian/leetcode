@@ -249,6 +249,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "977squares_of_a_sorted_arra
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "908smallest_rang_I", "908smallest_rang_I\908smallest_rang_I.vcxproj", "{19F51C36-8D38-45DE-A5D0-D3040A931008}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "191number_of_1_bits", "191number_of_1_bits\191number_of_1_bits.vcxproj", "{5887AE3B-C4A0-4B85-9A18-0B28F0DF8FB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1461,6 +1463,16 @@ Global
 		{19F51C36-8D38-45DE-A5D0-D3040A931008}.Release|x64.Build.0 = Release|x64
 		{19F51C36-8D38-45DE-A5D0-D3040A931008}.Release|x86.ActiveCfg = Release|Win32
 		{19F51C36-8D38-45DE-A5D0-D3040A931008}.Release|x86.Build.0 = Release|Win32
+		{5887AE3B-C4A0-4B85-9A18-0B28F0DF8FB8}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{5887AE3B-C4A0-4B85-9A18-0B28F0DF8FB8}.Debug|x64.ActiveCfg = Debug|x64
+		{5887AE3B-C4A0-4B85-9A18-0B28F0DF8FB8}.Debug|x64.Build.0 = Debug|x64
+		{5887AE3B-C4A0-4B85-9A18-0B28F0DF8FB8}.Debug|x86.ActiveCfg = Debug|Win32
+		{5887AE3B-C4A0-4B85-9A18-0B28F0DF8FB8}.Debug|x86.Build.0 = Debug|Win32
+		{5887AE3B-C4A0-4B85-9A18-0B28F0DF8FB8}.Release|Any CPU.ActiveCfg = Release|Win32
+		{5887AE3B-C4A0-4B85-9A18-0B28F0DF8FB8}.Release|x64.ActiveCfg = Release|x64
+		{5887AE3B-C4A0-4B85-9A18-0B28F0DF8FB8}.Release|x64.Build.0 = Release|x64
+		{5887AE3B-C4A0-4B85-9A18-0B28F0DF8FB8}.Release|x86.ActiveCfg = Release|Win32
+		{5887AE3B-C4A0-4B85-9A18-0B28F0DF8FB8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
