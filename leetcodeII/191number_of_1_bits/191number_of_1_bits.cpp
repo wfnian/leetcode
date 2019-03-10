@@ -26,6 +26,7 @@ int main()
 	uint32_t n = 00000000000000000000000000001011;
 
 	cout << Solution().hammingWeight(n) << endl;
+	cout << Solution().hammingWeight(22) << endl;
 	//cout << +n;
 	printf("%u", n>>1);
 
