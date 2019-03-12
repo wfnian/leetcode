@@ -14,6 +14,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "50pow(x,_n)", "50pow(x,_n)\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "345reverse_vowels_of_a_string", "345reverse_vowels_of_a_string\345reverse_vowels_of_a_string.vcxproj", "{6A711C7C-A14F-4D37-ABD0-E770B5C3BDB0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1two_sum", "1two_sum\1two_sum.vcxproj", "{05605E7F-C8DE-4D66-B696-AC57C6E15137}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -46,6 +48,14 @@ Global
 		{6A711C7C-A14F-4D37-ABD0-E770B5C3BDB0}.Release|x64.Build.0 = Release|x64
 		{6A711C7C-A14F-4D37-ABD0-E770B5C3BDB0}.Release|x86.ActiveCfg = Release|Win32
 		{6A711C7C-A14F-4D37-ABD0-E770B5C3BDB0}.Release|x86.Build.0 = Release|Win32
+		{05605E7F-C8DE-4D66-B696-AC57C6E15137}.Debug|x64.ActiveCfg = Debug|x64
+		{05605E7F-C8DE-4D66-B696-AC57C6E15137}.Debug|x64.Build.0 = Debug|x64
+		{05605E7F-C8DE-4D66-B696-AC57C6E15137}.Debug|x86.ActiveCfg = Debug|Win32
+		{05605E7F-C8DE-4D66-B696-AC57C6E15137}.Debug|x86.Build.0 = Debug|Win32
+		{05605E7F-C8DE-4D66-B696-AC57C6E15137}.Release|x64.ActiveCfg = Release|x64
+		{05605E7F-C8DE-4D66-B696-AC57C6E15137}.Release|x64.Build.0 = Release|x64
+		{05605E7F-C8DE-4D66-B696-AC57C6E15137}.Release|x86.ActiveCfg = Release|Win32
+		{05605E7F-C8DE-4D66-B696-AC57C6E15137}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
