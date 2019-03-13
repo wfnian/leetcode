@@ -7,30 +7,106 @@
 
 using namespace std;
 
+#define valType int
+
 struct ListNode
 {
 	int val;
 	ListNode *next;
-	ListNode(int _val) :val(_val), next(NULL) {}
+	ListNode(int _val) :val(_val), next(nullptr) {}
 };
 
-void creatList()
+class m_LinkList
 {
+public:
 
-}
+	void creatList(ListNode *&L, vector<valType> data)
+	{
+		ListNode *first = new ListNode(-1);
+		ListNode *last = first;
+		ListNode *temp;
+		for (size_t i = 0; i < data.size(); i++)
+		{
+			temp = new ListNode(data[i]);
+			last->next = temp;
+			last = temp;
+		}
+		last->next = nullptr;
+		L = first->next;
+	}
+
+	void printList(ListNode *L) {
+		ListNode *temp = L;
+		while (temp != nullptr)
+		{
+			cout << temp->val << "->";
+			temp = temp->next;
+		}
+		cout << "NULL" << endl;
+	}
+
+};
+
 class Solution {
 public:
 	ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
+	 	int extra = 0;
+		ListNode *first = new ListNode(-1);
+		ListNode *last = first;
+		ListNode *temp;
+		while (l1 != nullptr&&l2 != nullptr)
+		{
+			temp = new ListNode((l1->val + l2->val + extra)%10);
+			extra = (l1->val + l2->val + extra) / 10;
+			last->next = temp;
+			last = temp;
+			l1 = l1->next;
+			l2 = l2->next;
+		}
+		while (l1 != nullptr)
+		{
+			temp = new ListNode((l1->val + extra) % 10);
+			extra = (l1->val + extra) / 10;
+			last->next = temp;
+			last = temp;
+			l1 = l1->next;
+		}
+		while (l2 != nullptr)
+		{
+			temp = new ListNode((l2->val + extra) % 10);
+			extra = (l2->val + extra) / 10;
+			last->next = temp;
+			last = temp;
+			l2 = l2->next;
+		}
+		if (extra)
+		{
+			temp = new ListNode(extra );
+			last->next = temp;
+			last = temp;
+		}
 
-		return NULL;
+		return first->next;
 	}
 };
 
 
 int main()
 {
-	ListNode *L1, *L2;
-	ListNo
+	ListNode *L1, *L2, *res;
+	//vector<int>list1{ 2,4,3 }, list2{ 5,6,4,2};
+	vector<int>list1{ 1 }, list2{ 9,9};
+	m_LinkList().creatList(L1, list1);
+	m_LinkList().printList(L1);
+
+	m_LinkList().creatList(L2, list2);
+	m_LinkList().printList(L2);
+
+
+
+	res = Solution().addTwoNumbers(L1, L2);
+	m_LinkList().printList(res);
+
 	std::cout << "Hello World!\n";
 }
 
