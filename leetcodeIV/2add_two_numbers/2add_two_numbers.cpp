@@ -16,7 +16,7 @@ struct ListNode
 	ListNode(int _val) :val(_val), next(nullptr) {}
 };
 
-class m_LinkList
+class m_LinkList //自己格式化的链表程序
 {
 public:
 
@@ -47,16 +47,16 @@ public:
 
 };
 
-class Solution {
+class Solution { //自己的Solution。数据结构，没有其他技巧。
 public:
 	ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-	 	int extra = 0;
+		int extra = 0;
 		ListNode *first = new ListNode(-1);
 		ListNode *last = first;
 		ListNode *temp;
 		while (l1 != nullptr&&l2 != nullptr)
 		{
-			temp = new ListNode((l1->val + l2->val + extra)%10);
+			temp = new ListNode((l1->val + l2->val + extra) % 10);
 			extra = (l1->val + l2->val + extra) / 10;
 			last->next = temp;
 			last = temp;
@@ -81,7 +81,7 @@ public:
 		}
 		if (extra)
 		{
-			temp = new ListNode(extra );
+			temp = new ListNode(extra);
 			last->next = temp;
 			last = temp;
 		}
@@ -95,7 +95,7 @@ int main()
 {
 	ListNode *L1, *L2, *res;
 	//vector<int>list1{ 2,4,3 }, list2{ 5,6,4,2};
-	vector<int>list1{ 1 }, list2{ 9,9};
+	vector<int>list1{ 1 }, list2{ 9,9 };
 	m_LinkList().creatList(L1, list1);
 	m_LinkList().printList(L1);
 
