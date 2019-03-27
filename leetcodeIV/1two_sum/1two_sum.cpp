@@ -7,7 +7,7 @@
 #include <unordered_map>
 using namespace std;
 
-class _Solution {//我所能做到的最好
+class _Solution {	// 我所能做到的最好
 public:
 	vector<int> twoSum(vector<int>& nums, int target) {
 		vector<int>res;
