@@ -9,19 +9,15 @@ using namespace std;
 
 class Solution {
 public:
-	vector<int> twoSum(vector<int>& nums, int target) {
+	vector<int> twoSum(vector<int> &nums, int target) {
+		int i(0), j(0);
 		vector<int> res;
-
-		for (int i = 0; i < nums.size(); i++)
-		{
-			int deduct = target - nums[i];
-			for (int j = 0; j < nums.size(); j++) {
-				if (j != i && deduct == nums[j])
-				{
-					res.push_back(j);
+		for (i = 0; i < nums.size(); i++)
+			for (j = 0; j < nums.size(); j++)
+				if (i != j && (nums[i] + nums[j] == target)) {
+					res.push_back(i);
+					//cout << i << " ";
 				}
-			}
-		}
 		return res;
 	}
 };
