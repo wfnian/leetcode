@@ -12,6 +12,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0001_two_sum", "0001_two_su
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0002_add_two_numbers", "0002_add_two_numbers\0002_add_two_numbers.vcxproj", "{4D57B966-07CD-49C1-99E8-9EC2FA03FE8A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1694_reformat_phone_number", "1694_reformat_phone_number\1694_reformat_phone_number.vcxproj", "{8BF5E8F6-ACB8-4F63-9D7B-42DE6142FD1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -36,6 +38,14 @@ Global
 		{4D57B966-07CD-49C1-99E8-9EC2FA03FE8A}.Release|x64.Build.0 = Release|x64
 		{4D57B966-07CD-49C1-99E8-9EC2FA03FE8A}.Release|x86.ActiveCfg = Release|Win32
 		{4D57B966-07CD-49C1-99E8-9EC2FA03FE8A}.Release|x86.Build.0 = Release|Win32
+		{8BF5E8F6-ACB8-4F63-9D7B-42DE6142FD1B}.Debug|x64.ActiveCfg = Debug|x64
+		{8BF5E8F6-ACB8-4F63-9D7B-42DE6142FD1B}.Debug|x64.Build.0 = Debug|x64
+		{8BF5E8F6-ACB8-4F63-9D7B-42DE6142FD1B}.Debug|x86.ActiveCfg = Debug|Win32
+		{8BF5E8F6-ACB8-4F63-9D7B-42DE6142FD1B}.Debug|x86.Build.0 = Debug|Win32
+		{8BF5E8F6-ACB8-4F63-9D7B-42DE6142FD1B}.Release|x64.ActiveCfg = Release|x64
+		{8BF5E8F6-ACB8-4F63-9D7B-42DE6142FD1B}.Release|x64.Build.0 = Release|x64
+		{8BF5E8F6-ACB8-4F63-9D7B-42DE6142FD1B}.Release|x86.ActiveCfg = Release|Win32
+		{8BF5E8F6-ACB8-4F63-9D7B-42DE6142FD1B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
