@@ -13,7 +13,7 @@
 
 3. 第三部分leetcodeIII主要包含大部分Java解决方案 阶段: `大三`
 
-4. 第四部分leetcodeIV~~是我`回顾`,`重做`,`优化`以往题目，着手面试了。~~ 研究生重新开始刷题。
+4. 第四部分leetcodeIV~~是我回顾,重做,优化以往题目，着手面试了。~~ 研究生重新开始刷题。
 
 > ***~~2. oj of buct(Beijing University of chemical technology)~~*** ![](https://img.shields.io/badge/status-deleted-red.svg)
 # Tag 
