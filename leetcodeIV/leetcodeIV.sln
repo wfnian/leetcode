@@ -16,6 +16,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1694_reformat_phone_number"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1736_latest_time_by_replacing_hidden_digits", "1736_latest_time_by_replacing_hidden_digits\1736_latest_time_by_replacing_hidden_digits.vcxproj", "{716DC5EC-A39E-4A94-914A-DF68BE2E5AD7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1688_count_of_matches_in_tournament", "1688_count_of_matches_in_tournament\1688_count_of_matches_in_tournament.vcxproj", "{B5A41322-496A-4774-81E0-D8FD2E41097C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -56,6 +58,14 @@ Global
 		{716DC5EC-A39E-4A94-914A-DF68BE2E5AD7}.Release|x64.Build.0 = Release|x64
 		{716DC5EC-A39E-4A94-914A-DF68BE2E5AD7}.Release|x86.ActiveCfg = Release|Win32
 		{716DC5EC-A39E-4A94-914A-DF68BE2E5AD7}.Release|x86.Build.0 = Release|Win32
+		{B5A41322-496A-4774-81E0-D8FD2E41097C}.Debug|x64.ActiveCfg = Debug|x64
+		{B5A41322-496A-4774-81E0-D8FD2E41097C}.Debug|x64.Build.0 = Debug|x64
+		{B5A41322-496A-4774-81E0-D8FD2E41097C}.Debug|x86.ActiveCfg = Debug|Win32
+		{B5A41322-496A-4774-81E0-D8FD2E41097C}.Debug|x86.Build.0 = Debug|Win32
+		{B5A41322-496A-4774-81E0-D8FD2E41097C}.Release|x64.ActiveCfg = Release|x64
+		{B5A41322-496A-4774-81E0-D8FD2E41097C}.Release|x64.Build.0 = Release|x64
+		{B5A41322-496A-4774-81E0-D8FD2E41097C}.Release|x86.ActiveCfg = Release|Win32
+		{B5A41322-496A-4774-81E0-D8FD2E41097C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
