@@ -18,6 +18,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1736_latest_time_by_replaci
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1688_count_of_matches_in_tournament", "1688_count_of_matches_in_tournament\1688_count_of_matches_in_tournament.vcxproj", "{B5A41322-496A-4774-81E0-D8FD2E41097C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1652_defuse_the_bomb", "1652_defuse_the_bomb\1652_defuse_the_bomb.vcxproj", "{7A5888BA-CE06-4B70-9D29-E5A3115BB964}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -66,6 +68,14 @@ Global
 		{B5A41322-496A-4774-81E0-D8FD2E41097C}.Release|x64.Build.0 = Release|x64
 		{B5A41322-496A-4774-81E0-D8FD2E41097C}.Release|x86.ActiveCfg = Release|Win32
 		{B5A41322-496A-4774-81E0-D8FD2E41097C}.Release|x86.Build.0 = Release|Win32
+		{7A5888BA-CE06-4B70-9D29-E5A3115BB964}.Debug|x64.ActiveCfg = Debug|x64
+		{7A5888BA-CE06-4B70-9D29-E5A3115BB964}.Debug|x64.Build.0 = Debug|x64
+		{7A5888BA-CE06-4B70-9D29-E5A3115BB964}.Debug|x86.ActiveCfg = Debug|Win32
+		{7A5888BA-CE06-4B70-9D29-E5A3115BB964}.Debug|x86.Build.0 = Debug|Win32
+		{7A5888BA-CE06-4B70-9D29-E5A3115BB964}.Release|x64.ActiveCfg = Release|x64
+		{7A5888BA-CE06-4B70-9D29-E5A3115BB964}.Release|x64.Build.0 = Release|x64
+		{7A5888BA-CE06-4B70-9D29-E5A3115BB964}.Release|x86.ActiveCfg = Release|Win32
+		{7A5888BA-CE06-4B70-9D29-E5A3115BB964}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
