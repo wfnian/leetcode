@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.438
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6D39B3E9-9C29-42E6-91DC-BAC35FC3B9AF}"
 	ProjectSection(SolutionItems) = preProject
@@ -19,6 +19,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1688_count_of_matches_in_tournament", "1688_count_of_matches_in_tournament\1688_count_of_matches_in_tournament.vcxproj", "{B5A41322-496A-4774-81E0-D8FD2E41097C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1652_defuse_the_bomb", "1652_defuse_the_bomb\1652_defuse_the_bomb.vcxproj", "{7A5888BA-CE06-4B70-9D29-E5A3115BB964}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{79EDC88B-D963-45AB-8216-EB6612C1B018}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -76,6 +78,14 @@ Global
 		{7A5888BA-CE06-4B70-9D29-E5A3115BB964}.Release|x64.Build.0 = Release|x64
 		{7A5888BA-CE06-4B70-9D29-E5A3115BB964}.Release|x86.ActiveCfg = Release|Win32
 		{7A5888BA-CE06-4B70-9D29-E5A3115BB964}.Release|x86.Build.0 = Release|Win32
+		{79EDC88B-D963-45AB-8216-EB6612C1B018}.Debug|x64.ActiveCfg = Debug|x64
+		{79EDC88B-D963-45AB-8216-EB6612C1B018}.Debug|x64.Build.0 = Debug|x64
+		{79EDC88B-D963-45AB-8216-EB6612C1B018}.Debug|x86.ActiveCfg = Debug|Win32
+		{79EDC88B-D963-45AB-8216-EB6612C1B018}.Debug|x86.Build.0 = Debug|Win32
+		{79EDC88B-D963-45AB-8216-EB6612C1B018}.Release|x64.ActiveCfg = Release|x64
+		{79EDC88B-D963-45AB-8216-EB6612C1B018}.Release|x64.Build.0 = Release|x64
+		{79EDC88B-D963-45AB-8216-EB6612C1B018}.Release|x86.ActiveCfg = Release|Win32
+		{79EDC88B-D963-45AB-8216-EB6612C1B018}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
