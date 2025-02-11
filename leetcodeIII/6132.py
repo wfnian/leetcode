@@ -19,7 +19,7 @@ class Solution(object):
                         nums[i] -= min_
                 res += 1
 
-        return res
+        return res 
 
 
 print(Solution().minimumOperations([0]))
